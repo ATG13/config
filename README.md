@@ -6,4 +6,3 @@ Almost all the dotfies are taken from someone else, if I have their links I will
 
 *To-Do*: 
 - Add a youtube video displaying my gnome config on ubuntu.
-- Add the gnome-extension files
