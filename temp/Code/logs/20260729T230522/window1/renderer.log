@@ -1,0 +1,19 @@
+2026-07-29 23:05:24.496 [info] Started local extension host with pid 10171.
+2026-07-29 23:05:24.719 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-07-29 23:05:25.511 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-07-29 23:05:25.547 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-07-29 23:05:25.551 [info] [AgentHost:renderer] Direct MessagePort connection established
+2026-07-29 23:05:25.680 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-29 23:05:26.127 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-07-29 23:05:26.651 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-07-29 23:05:26.656 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-07-29 23:05:26.657 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-07-29 23:05:26.658 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-07-29 23:05:27.310 [info] [perf] Render performance baseline is 15ms
+2026-07-29 23:05:28.375 [error] [Extension Host] (node:10171) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-07-29 23:05:30.681 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-29 23:07:07.120 [error] An unknown error occurred. Please consult the log for more details.
+2026-07-29 23:07:15.304 [error] An unknown error occurred. Please consult the log for more details.
+2026-07-29 23:07:45.799 [error] An unknown error occurred. Please consult the log for more details.
+2026-07-29 23:07:47.894 [warning] [backup tracker] suspended, ignoring unregister event file:///home/atg/Aadi/Emisaver/code/whatsapp-chatbot/package.json 

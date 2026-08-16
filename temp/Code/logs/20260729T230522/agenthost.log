@@ -1,0 +1,26 @@
+2026-07-29 23:05:26.208 [info] Agent Host process started successfully
+2026-07-29 23:05:26.208 [error] CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-userdata:/home/atg/.config/Code/User'
+    at $i.withProvider (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:845:30614)
+    at async $i.doWatch (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:845:43433)
+    at async file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:845:43123
+2026-07-29 23:05:26.208 [error] CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-userdata:/home/atg/.config/Code/User/settings.json'
+    at $i.withProvider (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:845:30614)
+    at async $i.doWatch (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:845:43433)
+    at async file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:845:43123
+2026-07-29 23:05:26.222 [info] AgentService initialized
+2026-07-29 23:05:26.236 [info] Registering agent provider: copilotcli
+2026-07-29 23:05:26.238 [info] Registering agent provider: claude
+2026-07-29 23:05:26.240 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-07-29 23:05:26.241 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-07-29 23:05:26.286 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-07-29 23:05:26.303 [info] [CommandAutoApprover] Tree-sitter initialized successfully
+2026-07-29 23:05:26.650 [info] [Copilot] Listing sessions...
+2026-07-29 23:05:26.650 [info] [Copilot] Starting CopilotClient...
+2026-07-29 23:05:26.657 [info] [Claude] SDK not downloaded yet; deferring session list until a session triggers the download
+2026-07-29 23:05:27.662 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-07-29 23:05:27.690 [info] [Copilot] Resolved CLI path: /usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/index.js
+2026-07-29 23:05:28.497 [info] [Copilot] CopilotClient started successfully
+2026-07-29 23:05:28.500 [info] [Copilot] Found 0 sessions
+2026-07-29 23:05:59.921 [info] [Copilot] Listing sessions...
+2026-07-29 23:05:59.922 [info] [Claude] SDK not downloaded yet; deferring session list until a session triggers the download
+2026-07-29 23:05:59.923 [info] [Copilot] Found 0 sessions

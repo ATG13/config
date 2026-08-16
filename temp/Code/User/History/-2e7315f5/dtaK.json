@@ -1,0 +1,24 @@
+{
+    "window.zoomLevel": 2.5,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "window.confirmSaveUntitledWorkspace": false,
+    "explorer.confirmDelete": false,
+    "git.enableSmartCommit": true,
+    "git.openRepositoryInParentFolders": "always",
+    "explorer.confirmDragAndDrop": false,
+    "jupyter.askForKernelRestart": false,
+    "editor.fontSize": 18,
+    "workbench.sideBar.location": "right",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "notebook.output.wordWrap": true,
+    "window.newWindowProfile": "Default", // hide the title bar on the top
+    "terminal.integrated.fontSize": 13,
+    "workbench.activityBar.location": "hidden", // hide the activity bar on the right
+    "workbench.statusBar.visible": false, // hide the status bar on the bottom
+    "extensions.ignoreRecommendations": true,
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "One Dark Pro Mix"
+}

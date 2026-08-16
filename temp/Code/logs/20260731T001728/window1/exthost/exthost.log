@@ -1,0 +1,17 @@
+2026-07-31 00:17:30.151 [info] Extension host with pid 6809 started
+2026-07-31 00:17:30.151 [info] Skipping acquiring lock for /home/atg/.config/Code/User/workspaceStorage/f182cb24c3527b1a5d1bc1e5ab2d2c0f.
+2026-07-31 00:17:30.177 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-07-31 00:17:30.194 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-07-31 00:17:30.203 [info] ExtensionService#_doActivateExtension ReprEng.csv, startup: false, activationEvent: 'onCustomEditor:csv.editor'
+2026-07-31 00:17:30.239 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-07-31 00:17:30.244 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2026-07-31 00:17:30.287 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-07-31 00:17:30.314 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-07-31 00:17:30.396 [info] Eager extensions activated
+2026-07-31 00:17:30.429 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-07-31 00:17:30.431 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-07-31 00:17:35.313 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-07-31 00:17:35.324 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-07-31 00:17:35.336 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-07-31 00:36:09.328 [info] Extension host terminating: received terminate message from renderer
+2026-07-31 00:36:09.351 [info] Extension host with pid 6809 exiting with code 0

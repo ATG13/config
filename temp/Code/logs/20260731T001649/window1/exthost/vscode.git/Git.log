@@ -1,0 +1,47 @@
+2026-07-31 00:16:52.110 [info] [main] Log level: Info
+2026-07-31 00:16:52.110 [info] [main] Validating found git in: "git"
+2026-07-31 00:16:52.298 [info] [main] Using git "2.51.0" from "git"
+2026-07-31 00:16:52.298 [info] [Model][doInitialScan] Initial repository scan started
+2026-07-31 00:16:52.352 [info] > git rev-parse --show-toplevel [41ms]
+2026-07-31 00:16:52.508 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [152ms]
+2026-07-31 00:16:52.519 [info] [Model][openRepository] Opened repository (path): /home/atg/Aadi/Emisaver/code/whatsapp-chatbot
+2026-07-31 00:16:52.519 [info] [Model][openRepository] Opened repository (real path): /home/atg/Aadi/Emisaver/code/whatsapp-chatbot
+2026-07-31 00:16:52.519 [info] [Model][openRepository] Opened repository (kind): repository
+2026-07-31 00:16:52.534 [info] > git config --get commit.template [6ms]
+2026-07-31 00:16:52.534 [info] > git config --get --local core.virtualfilesystem [10ms]
+2026-07-31 00:16:52.534 [warning] [Git][config] git config failed: Failed to execute git
+2026-07-31 00:16:52.543 [info] > git rev-parse --show-toplevel [11ms]
+2026-07-31 00:16:52.543 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-31 00:16:52.548 [info] > git rev-parse --show-toplevel [1ms]
+2026-07-31 00:16:52.548 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-31 00:16:52.552 [info] > git rev-parse --show-toplevel [1ms]
+2026-07-31 00:16:52.558 [info] > git rev-parse --show-toplevel [2ms]
+2026-07-31 00:16:52.563 [info] > git rev-parse --show-toplevel [1ms]
+2026-07-31 00:16:52.569 [info] > git rev-parse --show-toplevel [2ms]
+2026-07-31 00:16:52.575 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [37ms]
+2026-07-31 00:16:52.576 [info] > git rev-parse --show-toplevel [3ms]
+2026-07-31 00:16:52.605 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2026-07-31 00:16:52.606 [info] > git rev-parse --show-toplevel [27ms]
+2026-07-31 00:16:52.612 [info] > git rev-parse --show-toplevel [1ms]
+2026-07-31 00:16:52.617 [info] > git rev-parse --show-toplevel [1ms]
+2026-07-31 00:16:52.622 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-07-31 00:16:52.628 [info] > git status -z -uall [43ms]
+2026-07-31 00:16:52.656 [info] > git rev-parse --show-toplevel [29ms]
+2026-07-31 00:16:52.657 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-31 00:16:52.659 [info] > git config --get commit.template [2ms]
+2026-07-31 00:16:52.659 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2026-07-31 00:16:52.671 [info] > git config --get --local branch.main.vscode-merge-base [7ms]
+2026-07-31 00:16:52.679 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2026-07-31 00:16:52.685 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2026-07-31 00:16:52.695 [info] > git status -z -uall [5ms]
+2026-07-31 00:16:52.695 [info] > git merge-base refs/heads/main refs/remotes/origin/main [11ms]
+2026-07-31 00:16:52.700 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-07-31 00:16:52.710 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 832f2aea8477db46e15b35bba53658c7d28c9eb5...refs/remotes/origin/main -- [10ms]
+2026-07-31 00:16:52.710 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2026-07-31 00:16:52.717 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 832f2aea8477db46e15b35bba53658c7d28c9eb5...refs/remotes/origin/main -- [2ms]
+2026-07-31 00:16:52.924 [info] > git rev-parse --show-toplevel [1ms]
+2026-07-31 00:16:52.924 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-31 00:16:53.751 [info] > git rev-parse --show-toplevel [1ms]
+2026-07-31 00:16:53.751 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-31 00:16:53.998 [info] > git rev-parse --show-toplevel [1ms]
+2026-07-31 00:16:53.998 [info] fatal: not a git repository (or any of the parent directories): .git

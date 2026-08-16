@@ -1,0 +1,54 @@
+2026-08-14 22:31:06.202 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-08-14 22:31:06.375 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-08-14 22:31:06.405 [info] Started local extension host with pid 17537.
+2026-08-14 22:31:06.434 [info] Started initializing default profile extensions in extensions installation folder. file:///home/atg/.vscode/extensions
+2026-08-14 22:31:06.682 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/atg/.vscode/extensions
+2026-08-14 22:31:06.714 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-08-14 22:31:06.935 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-08-14 22:31:06.993 [info] [AgentHost:renderer] Protocol connection established; clientId=8ceb475d-ce03-4ee0-a975-d67de83bf4ab
+2026-08-14 22:31:07.272 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-08-14 22:31:07.301 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-08-14 22:31:07.302 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-08-14 22:31:07.302 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-08-14 22:31:07.321 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-08-14 22:31:07.367 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-08-14 22:31:07.367 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-08-14 22:31:07.367 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-08-14 22:31:07.373 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-08-14 22:31:07.376 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-08-14 22:31:07.376 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-08-14 22:31:07.377 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-08-14 22:31:07.377 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-08-14 22:31:07.380 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-08-14 22:31:07.380 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-08-14 22:31:07.381 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-08-14 22:31:07.558 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-08-14 22:31:09.552 [info] [perf] Render performance baseline is 26ms
+2026-08-14 22:31:11.943 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-08-14 22:31:19.825 [info] Started local extension host with pid 17855.
+2026-08-14 22:31:24.024 [info] Started local extension host with pid 17913.
+2026-08-14 22:31:24.134 [error] Canceled: Canceled
+    at new egi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5457:45878)
+    at s._remoteCall (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5457:51996)
+    at n.<computed>.r.charCodeAt.n.<computed> (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5457:48741)
+    at sjt.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1222:86937)
+    at Xct.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1222:76900)
+    at $We.addAccountsFromProvider (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1932:42441)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1932:38876
+    at Array.map (<anonymous>)
+    at $We.doInitialize (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1932:38864)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1932:38734
+2026-08-14 22:31:24.134 [error] Canceled: Canceled
+    at new egi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5457:45878)
+    at s._remoteCall (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5457:51996)
+    at n.<computed>.r.charCodeAt.n.<computed> (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5457:48741)
+    at sjt.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1222:86937)
+    at Xct.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1222:76900)
+    at $We.addAccountsFromProvider (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1932:42441)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1932:38876
+    at Array.map (<anonymous>)
+    at $We.doInitialize (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1932:38864)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1932:38734
+2026-08-14 22:31:27.046 [error] [Extension Host] (node:17913) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-08-14 22:31:32.500 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: onboarding.developerMode, onboarding.developerModeVariations, onboarding.enabled, extensions.requestTimeout, github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList, terminal.integrated.developer.devMode, terminal.integrated.developer.ptyHost.latency, terminal.integrated.developer.ptyHost.startupDelay, terminal.integrated.enableKittyKeyboardProtocol, terminal.integrated.enableWin32InputMode, chat.defaultToCopilotHarness, chat.agentHost.byokModels.enabled, chat.agentHost.claudeAgent.enabled, chat.agentHost.codexAgent.enabled, chat.agentHost.otel.captureContent, chat.agentHost.otel.dbSpanExporter.enabled, chat.agentHost.otel.enabled, chat.agentHost.otel.exporterType, chat.agentHost.otel.otlpEndpoint, chat.agentHost.otel.outfile, chat.agentHost.systemProxy.enabled, chat.stickyScroll.enabled, sessions.chatTimeline.display, chat.agentHost.agentDebugLog.enabled, chat.agentHost.agentDebugLog.maxEventsInMemory, chat.agentHost.ahpJsonlLoggingEnabled, chat.agentHost.allowSignedOutWhenUsable, chat.agentHost.copilot.reasoningEffortOverride, chat.agentHost.copilot.toolSearch.deferThreshold, chat.agentHost.copilot.toolSearch.enabled, chat.agentHost.copilotSdk.logLevel, chat.agentHost.customTerminalTool.enabled, chat.agentHost.modelCapabilityOverrides, chat.agentHost.opus48Prompt.enabled, chat.agentHost.sdkSandbox.enabled, chat.agentSessions.migrateLegacyCopilotCli, chat.agentsHandoffTip.mode, chat.artifacts.enabled, chat.artifacts.rules.byFilePath, chat.artifacts.rules.byMemoryFilePath, chat.artifacts.rules.byMimeType, chat.assistedPermissions.enabled, chat.autopilot.advanced.enabled, chat.autoReply, chat.byokUtilityModelDefault, chat.contextUsage.enabled, chat.customizations.promptMigration.enabled, chat.customizations.structuredPreview.enabled, chat.defaultConfiguration, chat.defaultModel, chat.editing.openChangedFileInDiffEditor, chat.editing.revealNextChangeOnResolve, chat.experimental.collectInstructionsInExtension, chat.experimental.incrementalRendering.animationStyle, chat.experimental.incrementalRendering.buffering, chat.experimental.incrementalRendering.enabled, chat.experimental.permissionsSandboxToggle.enabled, chat.experimental.sessionArchiveActionWording, chat.experimentalSessionsWindowOverride, chat.exploreAgent.defaultModel, chat.growthNotification.enabled, chat.newSession.defaultMode, chat.omni.enabled, chat.permissions.default, chat.pluginLocations, chat.plugins.enabled, chat.plugins.enabledPlugins, chat.plugins.marketplaces, chat.plugins.strictMarketplaces, chat.progressBorder.enabled, chat.sessionSync.enabled, chat.sessionSync.excludeRepositories, chat.subagents.allowInvocationsFromSubagents, chat.subagents.useRichRendering, chat.titleBar.openInAgentsWindow.enabled, chat.titleBar.signIn.enabled, chat.tools.riskAssessment.model, chat.turnStatusPills, chat.upvoteAnimation, chat.useClaudeHooks, chat.useCustomizationsInParentRepositories, chat.utilityModel, chat.utilitySmallModel, chat.verbose, dictation.enabled, dictation.experimental.llmCleanup, dictation.model, dictation.showButton, dictation.showTranscript, agents.voice.agentProgress, agents.voice.enabled, agents.voice.handsFree, agents.voice.language, agents.voice.liveTranscript, agents.voice.showButton, agents.voice.showTranscript, agents.voice.speakResponses, agents.voice.turn.silenceMs, agents.voice.turn.stopPhrases, agents.voice.voice, imageCarousel.chat.enabled, imageCarousel.explorerContextMenu.enabled, accessibility.signals.chatResponseReceived, accessibility.signals.chatUserActionRequired, issueReporter.wizard.enabled, issueReporter.wizard.fullWorkspaceScan

@@ -1,0 +1,783 @@
+{
+  "version": 3,
+  "requesterUsername": "ATG13",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/65368393",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "request_e437d559-7574-49b4-a6e7-f38bbd2e7e29",
+      "message": {
+        "text": "Interpret these results\nAccuracy: 0.45\nClassification Report:\n               precision    recall  f1-score   support\n\n           0       0.52      0.52      0.52        23\n           1       0.35      0.35      0.35        17\n\n    accuracy                           0.45        40\n   macro avg       0.44      0.44      0.44        40\nweighted avg       0.45      0.45      0.45        40",
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 388
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 11,
+              "endColumn": 54
+            },
+            "text": "Interpret these results\nAccuracy: 0.45\nClassification Report:\n               precision    recall  f1-score   support\n\n           0       0.52      0.52      0.52        23\n           1       0.35      0.35      0.35        17\n\n    accuracy                           0.45        40\n   macro avg       0.44      0.44      0.44        40\nweighted avg       0.45      0.45      0.45        40",
+            "kind": "text"
+          }
+        ]
+      },
+      "variableData": {
+        "variables": [
+          {
+            "id": "vscode.implicit.viewport",
+            "name": "file:temp.ipynb",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/home/atg/Aadi/Christ College/2) Data Mining/Exam/temp.ipynb",
+                "external": "vscode-notebook-cell:/home/atg/Aadi/Christ%20College/2%29%20Data%20Mining/Exam/temp.ipynb#X14sZmlsZQ%3D%3D",
+                "path": "/home/atg/Aadi/Christ College/2) Data Mining/Exam/temp.ipynb",
+                "scheme": "vscode-notebook-cell",
+                "fragment": "X14sZmlsZQ=="
+              },
+              "range": {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 5,
+                "endColumn": 1
+              }
+            },
+            "isFile": true,
+            "isDynamic": true,
+            "modelDescription": "User's current visible code"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "The results indicate the performance of a classification model. Here's a breakdown of the metrics:\n\n1. **Accuracy**: The model correctly classified 45% of the instances.\n\n2. **Precision**: \n   - For class 0: 52% of the instances predicted as class 0 are actually class 0.\n   - For class 1: 35% of the instances predicted as class 1 are actually class 1.\n\n3. **Recall**:\n   - For class 0: The model correctly identified 52% of the actual class 0 instances.\n   - For class 1: The model correctly identified 35% of the actual class 1 instances.\n\n4. **F1-Score**:\n   - For class 0: The harmonic mean of precision and recall is 0.52.\n   - For class 1: The harmonic mean of precision and recall is 0.35.\n\n5. **Support**: \n   - There are 23 instances of class 0.\n   - There are 17 instances of class 1.\n\n6. **Macro Average**: The average of precision, recall, and f1-score for both classes, treating all classes equally.\n   - Precision: 0.44\n   - Recall: 0.44\n   - F1-Score: 0.44\n\n7. **Weighted Average**: The average of precision, recall, and f1-score for both classes, weighted by the number of instances in each class.\n   - Precision: 0.45\n   - Recall: 0.45\n   - F1-Score: 0.45\n\nOverall, the model's performance is relatively low, with an accuracy of 45% and similar values for precision, recall, and f1-score. This suggests that the model may need improvement.",
+          "supportThemeIcons": false,
+          "supportHtml": false
+        }
+      ],
+      "responseId": "response_0261c709-dc84-40f2-ab52-d9d13fe5bcc3",
+      "isHidden": false,
+      "result": {
+        "timings": {
+          "firstProgress": 2323,
+          "totalElapsed": 8980
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "messages": [
+            {
+              "role": "user",
+              "content": "Interpret these results\nAccuracy: 0.45\nClassification Report:\n               precision    recall  f1-score   support\n\n           0       0.52      0.52      0.52        23\n           1       0.35      0.35      0.35        17\n\n    accuracy                           0.45        40\n   macro avg       0.44      0.44      0.44        40\nweighted avg       0.45      0.45      0.45        40"
+            },
+            {
+              "role": "assistant",
+              "content": "The results indicate the performance of a classification model. Here's a breakdown of the metrics:\n\n1. **Accuracy**: The model correctly classified 45% of the instances.\n\n2. **Precision**: \n   - For class 0: 52% of the instances predicted as class 0 are actually class 0.\n   - For class 1: 35% of the instances predicted as class 1 are actually class 1.\n\n3. **Recall**:\n   - For class 0: The model correctly identified 52% of the actual class 0 instances.\n   - For class 1: The model correctly identified 35% of the actual class 1 instances.\n\n4. **F1-Score**:\n   - For class 0: The harmonic mean of precision and recall is 0.52.\n   - For class 1: The harmonic mean of precision and recall is 0.35.\n\n5. **Support**: \n   - There are 23 instances of class 0.\n   - There are 17 instances of class 1.\n\n6. **Macro Average**: The average of precision, recall, and f1-score for both classes, treating all classes equally.\n   - Precision: 0.44\n   - Recall: 0.44\n   - F1-Score: 0.44\n\n7. **Weighted Average**: The average of precision, recall, and f1-score for both classes, weighted by the number of instances in each class.\n   - Precision: 0.45\n   - Recall: 0.45\n   - F1-Score: 0.45\n\nOverall, the model's performance is relatively low, with an accuracy of 45% and similar values for precision, recall, and f1-score. This suggests that the model may need improvement."
+            }
+          ],
+          "modelMessageId": "50817597-b8fa-4a16-8db9-af2858a7069f",
+          "responseId": "bc0a2368-d843-47fe-8a26-de9144c69f52",
+          "sessionId": "dedd991b-9854-40ff-b5ce-7f621bd3a733",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [
+        {
+          "kind": "reply",
+          "agentId": "github.copilot.default",
+          "message": "What improvements can we try?"
+        }
+      ],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "supportsSlowVariables": true,
+          "requester": {
+            "name": "ATG13",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/65368393",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1736475567987
+    },
+    {
+      "requestId": "request_60b84376-f890-4436-9264-3664d0b383f2",
+      "message": {
+        "text": "Can you write the interpretation in sentences ",
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 46
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 47
+            },
+            "text": "Can you write the interpretation in sentences ",
+            "kind": "text"
+          }
+        ]
+      },
+      "variableData": {
+        "variables": [
+          {
+            "id": "vscode.implicit.viewport",
+            "name": "file:Answer.ipynb",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/home/atg/Aadi/Christ College/2) Data Mining/Exam/Answer.ipynb",
+                "external": "vscode-notebook-cell:/home/atg/Aadi/Christ%20College/2%29%20Data%20Mining/Exam/Answer.ipynb#W0sZmlsZQ%3D%3D",
+                "path": "/home/atg/Aadi/Christ College/2) Data Mining/Exam/Answer.ipynb",
+                "scheme": "vscode-notebook-cell",
+                "fragment": "W0sZmlsZQ=="
+              },
+              "range": {
+                "startLineNumber": 19,
+                "startColumn": 1,
+                "endLineNumber": 38,
+                "endColumn": 11
+              }
+            },
+            "isFile": true,
+            "isDynamic": true,
+            "modelDescription": "User's current visible code"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "The model's accuracy is 45%, meaning it correctly classified 45% of the instances. For class 0, the precision is 52%, indicating that 52% of the instances predicted as class 0 are actually class 0. The recall for class 0 is also 52%, meaning the model correctly identified 52% of the actual class 0 instances. The F1-score for class 0, which is the harmonic mean of precision and recall, is 0.52.\n\nFor class 1, the precision is 35%, indicating that 35% of the instances predicted as class 1 are actually class 1. The recall for class 1 is 35%, meaning the model correctly identified 35% of the actual class 1 instances. The F1-score for class 1 is 0.35.\n\nThe macro average, which treats all classes equally, shows a precision, recall, and F1-score of 0.44. The weighted average, which takes into account the number of instances in each class, shows a precision, recall, and F1-score of 0.45.\n\nOverall, the model's performance is relatively low, suggesting that it may need improvement.",
+          "supportThemeIcons": false,
+          "supportHtml": false
+        }
+      ],
+      "responseId": "response_f6e3f0c4-0b16-447b-bcbe-2b8bd7fad6e6",
+      "isHidden": false,
+      "result": {
+        "timings": {
+          "firstProgress": 2779,
+          "totalElapsed": 4917
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "messages": [
+            {
+              "role": "user",
+              "content": "Can you write the interpretation in sentences "
+            },
+            {
+              "role": "assistant",
+              "content": "The model's accuracy is 45%, meaning it correctly classified 45% of the instances. For class 0, the precision is 52%, indicating that 52% of the instances predicted as class 0 are actually class 0. The recall for class 0 is also 52%, meaning the model correctly identified 52% of the actual class 0 instances. The F1-score for class 0, which is the harmonic mean of precision and recall, is 0.52.\n\nFor class 1, the precision is 35%, indicating that 35% of the instances predicted as class 1 are actually class 1. The recall for class 1 is 35%, meaning the model correctly identified 35% of the actual class 1 instances. The F1-score for class 1 is 0.35.\n\nThe macro average, which treats all classes equally, shows a precision, recall, and F1-score of 0.44. The weighted average, which takes into account the number of instances in each class, shows a precision, recall, and F1-score of 0.45.\n\nOverall, the model's performance is relatively low, suggesting that it may need improvement."
+            }
+          ],
+          "modelMessageId": "440b3a30-d6f3-4aab-b474-2f64fa526ac3",
+          "responseId": "36c3c441-1ccf-4ccd-8937-deff87ba84cf",
+          "sessionId": "dedd991b-9854-40ff-b5ce-7f621bd3a733",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "supportsSlowVariables": true,
+          "requester": {
+            "name": "ATG13",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/65368393",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1736475977793
+    },
+    {
+      "requestId": "request_6a9c9238-91f1-4bf6-9e79-d4eeffbf0732",
+      "message": {
+        "text": "Can you help me with the error i am getting with my output",
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 58
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 59
+            },
+            "text": "Can you help me with the error i am getting with my output",
+            "kind": "text"
+          }
+        ]
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "value": "Sure, I can help with that. Please provide the error message you are encountering with your output.",
+          "supportThemeIcons": false,
+          "supportHtml": false
+        }
+      ],
+      "responseId": "response_34252a56-d561-49e9-a2c2-97b2074e5c94",
+      "isHidden": false,
+      "result": {
+        "timings": {
+          "firstProgress": 2040,
+          "totalElapsed": 2046
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "messages": [
+            {
+              "role": "user",
+              "content": "Can you help me with the error i am getting with my output"
+            },
+            {
+              "role": "assistant",
+              "content": "Sure, I can help with that. Please provide the error message you are encountering with your output."
+            }
+          ],
+          "modelMessageId": "dc3a378d-8d9d-43a1-801a-69237a37be26",
+          "responseId": "9e9664b0-62b0-4887-93bd-4aec366a6d6f",
+          "sessionId": "dedd991b-9854-40ff-b5ce-7f621bd3a733",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "supportsSlowVariables": true,
+          "requester": {
+            "name": "ATG13",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/65368393",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1736476212279
+    },
+    {
+      "requestId": "request_dc8c120d-f6af-461d-8329-d85cd2801ba6",
+      "message": {
+        "text": "Visual Studio Code (1.96.2, undefined, desktop)\nJupyter Extension Version: 2024.11.0.\nPython Extension Version: 2024.22.2.\nPylance Extension Version: 2024.12.1.\nPlatform: linux (x64).\nTemp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2024.11.0\nWorkspace folder ~/Aadi/Christ College/2) Data Mining/Exam, Home = /home/atg\n07:32:38.445 [info] Starting Kernel (Python Path: ~/.virtualenvs/r-reticulate/bin/python, Venv, 3.12.7) for '~/Aadi/Christ College/2) Data Mining/Exam/Prev_paper.ipynb' (disableUI=true)\n07:32:38.745 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python -c \"import ipykernel; print(ipykernel.__version__); print(\"5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d\"); print(ipykernel.__file__)\"\n07:32:38.757 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v3fb737a4e6cd67e729354645dbfd84e5dc8463310.json\n    > cwd: //home/~/Aadi/Christ College/2) Data Mining/Exam\n07:32:38.777 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python -m pip list\n07:32:39.643 [info] Kernel successfully started\n07:32:39.654 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/pythonFiles/printJupyterDataDir.py\n07:32:42.445 [info] Dispose Kernel '~/Aadi/Christ College/2) Data Mining/Exam/Prev_paper.ipynb' associated with '~/Aadi/Christ College/2) Data Mining/Exam/Prev_paper.ipynb'\n07:39:35.461 [info] Starting Kernel (Python Path: ~/.virtualenvs/r-reticulate/bin/python, Venv, 3.12.7) for '~/Aadi/Christ College/2) Data Mining/Exam/temp.ipynb' (disableUI=true)\n07:39:35.491 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python -c \"import ipykernel; print(ipykernel.__version__); print(\"5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d\"); print(ipykernel.__file__)\"\n07:39:35.553 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python -m pip list\n07:39:35.609 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v3257a3480c4a5917dd78dc2dc13d5caba543697da.json\n    > cwd: //home/~/Aadi/Christ College/2) Data Mining/Exam\n07:39:36.262 [info] Kernel successfully started\n07:41:09.179 [warn] Cell completed with errors iu [Error]: [Errno 2] No such file or directory: 'student.csv'\n    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {\n  ename: 'FileNotFoundError',\n  evalue: \"[Errno 2] No such file or directory: 'student.csv'\",\n  traceback: [\n    '\\x1B[0;31m---------------------------------------------------------------------------\\x1B[0m',\n    '\\x1B[0;31mFileNotFoundError\\x1B[0m                         Traceback (most recent call last)',\n    'Cell \\x1B[0;32mIn[1], line 8\\x1B[0m\\n' +\n      '\\x1B[1;32m      5\\x1B[0m \\x1B[38;5;28;01mfrom\\x1B[39;00m \\x1B[38;5;21;01msklearn\\x1B[39;00m\\x1B[38;5;21;01m.\\x1B[39;00m\\x1B[38;5;21;01mpreprocessing\\x1B[39;00m \\x1B[38;5;28;01mimport\\x1B[39;00m LabelEncoder\\n' +\n      '\\x1B[1;32m      7\\x1B[0m \\x1B[38;5;66;03m# Load the dataset\\x1B[39;00m\\n' +\n      \"\\x1B[0;32m----> 8\\x1B[0m data \\x1B[38;5;241m=\\x1B[39m \\x1B[43mpd\\x1B[49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43mread_csv\\x1B[49m\\x1B[43m(\\x1B[49m\\x1B[38;5;124;43m'\\x1B[39;49m\\x1B[38;5;124;43mstudent.csv\\x1B[39;49m\\x1B[38;5;124;43m'\\x1B[39;49m\\x1B[43m)\\x1B[49m\\n\",\n    'File \\x1B[0;32m~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/pandas/io/parsers/readers.py:1026\\x1B[0m, in \\x1B[0;36mread_csv\\x1B[0;34m(filepath_or_buffer, sep, delimiter, header, names, index_col, usecols, dtype, engine, converters, true_values, false_values, skipinitialspace, skiprows, skipfooter, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_lines, parse_dates, infer_datetime_format, keep_date_col, date_parser, date_format, dayfirst, cache_dates, iterator, chunksize, compression, thousands, decimal, lineterminator, quotechar, quoting, doublequote, escapechar, comment, encoding, encoding_errors, dialect, on_bad_lines, delim_whitespace, low_memory, memory_map, float_precision, storage_options, dtype_backend)\\x1B[0m\\n' +\n      '\\x1B[1;32m   1013\\x1B[0m kwds_defaults \\x1B[38;5;241m=\\x1B[39m _refine_defaults_read(\\n' +\n      '\\x1B[1;32m   1014\\x1B[0m     dialect,\\n' +\n      '\\x1B[1;32m   1015\\x1B[0m     delimiter,\\n' +\n      '\\x1B[0;32m   (...)\\x1B[0m\\n' +\n      '\\x1B[1;32m   1022\\x1B[0m     dtype_backend\\x1B[38;5;241m=\\x1B[39mdtype_backend,\\n' +\n      '\\x1B[1;32m   1023\\x1B[0m )\\n' +\n      '\\x1B[1;32m   1024\\x1B[0m kwds\\x1B[38;5;241m.\\x1B[39mupdate(kwds_defaults)\\n' +\n      '\\x1B[0;32m-> 1026\\x1B[0m \\x1B[38;5;28;01mreturn\\x1B[39;00m \\x1B[43m_read\\x1B[49m\\x1B[43m(\\x1B[49m\\x1B[43mfilepath_or_buffer\\x1B[49m\\x1B[43m,\\x1B[49m\\x1B[43m \\x1B[49m\\x1B[43mkwds\\x1B[49m\\x1B[43m)\\x1B[49m\\n',\n    'File \\x1B[0;32m~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/pandas/io/parsers/readers.py:620\\x1B[0m, in \\x1B[0;36m_read\\x1B[0;34m(filepath_or_buffer, kwds)\\x1B[0m\\n' +\n      '\\x1B[1;32m    617\\x1B[0m _validate_names(kwds\\x1B[38;5;241m.\\x1B[39mget(\\x1B[38;5;124m\"\\x1B[39m\\x1B[38;5;124mnames\\x1B[39m\\x1B[38;5;124m\"\\x1B[39m, \\x1B[38;5;28;01mNone\\x1B[39;00m))\\n' +\n      '\\x1B[1;32m    619\\x1B[0m \\x1B[38;5;66;03m# Create the parser.\\x1B[39;00m\\n' +\n      '\\x1B[0;32m--> 620\\x1B[0m parser \\x1B[38;5;241m=\\x1B[39m \\x1B[43mTextFileReader\\x1B[49m\\x1B[43m(\\x1B[49m\\x1B[43mfilepath_or_buffer\\x1B[49m\\x1B[43m,\\x1B[49m\\x1B[43m \\x1B[49m\\x1B[38;5;241;43m*\\x1B[39;49m\\x1B[38;5;241;43m*\\x1B[39;49m\\x1B[43mkwds\\x1B[49m\\x1B[43m)\\x1B[49m\\n' +\n      '\\x1B[1;32m    622\\x1B[0m \\x1B[38;5;28;01mif\\x1B[39;00m chunksize \\x1B[38;5;129;01mor\\x1B[39;00m iterator:\\n' +\n      '\\x1B[1;32m    623\\x1B[0m     \\x1B[38;5;28;01mreturn\\x1B[39;00m parser\\n',\n    'File \\x1B[0;32m~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/pandas/io/parsers/readers.py:1620\\x1B[0m, in \\x1B[0;36mTextFileReader.__init__\\x1B[0;34m(self, f, engine, **kwds)\\x1B[0m\\n' +\n      '\\x1B[1;32m   1617\\x1B[0m     \\x1B[38;5;28mself\\x1B[39m\\x1B[38;5;241m.\\x1B[39moptions[\\x1B[38;5;124m\"\\x1B[39m\\x1B[38;5;124mhas_index_names\\x1B[39m\\x1B[38;5;124m\"\\x1B[39m] \\x1B[38;5;241m=\\x1B[39m kwds[\\x1B[38;5;124m\"\\x1B[39m\\x1B[38;5;124mhas_index_names\\x1B[39m\\x1B[38;5;124m\"\\x1B[39m]\\n' +\n      '\\x1B[1;32m   1619\\x1B[0m \\x1B[38;5;28mself\\x1B[39m\\x1B[38;5;241m.\\x1B[39mhandles: IOHandles \\x1B[38;5;241m|\\x1B[39m \\x1B[38;5;28;01mNone\\x1B[39;00m \\x1B[38;5;241m=\\x1B[39m \\x1B[38;5;28;01mNone\\x1B[39;00m\\n' +\n      '\\x1B[0;32m-> 1620\\x1B[0m \\x1B[38;5;28mself\\x1B[39m\\x1B[38;5;241m.\\x1B[39m_engine \\x1B[38;5;241m=\\x1B[39m \\x1B[38;5;28;43mself\\x1B[39;49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43m_make_engine\\x1B[49m\\x1B[43m(\\x1B[49m\\x1B[43mf\\x1B[49m\\x1B[43m,\\x1B[49m\\x1B[43m \\x1B[49m\\x1B[38;5;28;43mself\\x1B[39;49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43mengine\\x1B[49m\\x1B[43m)\\x1B[49m\\n',\n    'File \\x1B[0;32m~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/pandas/io/parsers/readers.py:1880\\x1B[0m, in \\x1B[0;36mTextFileReader._make_engine\\x1B[0;34m(self, f, engine)\\x1B[0m\\n' +\n      '\\x1B[1;32m   1878\\x1B[0m     \\x1B[38;5;28;01mif\\x1B[39;00m \\x1B[38;5;124m\"\\x1B[39m\\x1B[38;5;124mb\\x1B[39m\\x1B[38;5;124m\"\\x1B[39m \\x1B[38;5;129;01mnot\\x1B[39;00m \\x1B[38;5;129;01min\\x1B[39;00m mode:\\n' +\n      '\\x1B[1;32m   1879\\x1B[0m         mode \\x1B[38;5;241m+\\x1B[39m\\x1B[38;5;241m=\\x1B[39m \\x1B[38;5;124m\"\\x1B[39m\\x1B[38;5;124mb\\x1B[39m\\x1B[38;5;124m\"\\x1B[39m\\n' +\n      '\\x1B[0;32m-> 1880\\x1B[0m \\x1B[38;5;28mself\\x1B[39m\\x1B[38;5;241m.\\x1B[39mhandles \\x1B[38;5;241m=\\x1B[39m \\x1B[43mget_handle\\x1B[49m\\x1B[43m(\\x1B[49m\\n' +\n      '\\x1B[1;32m   1881\\x1B[0m \\x1B[43m    \\x1B[49m\\x1B[43mf\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m   1882\\x1B[0m \\x1B[43m    \\x1B[49m\\x1B[43mmode\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m   1883\\x1B[0m \\x1B[43m    \\x1B[49m\\x1B[43mencoding\\x1B[49m\\x1B[38;5;241;43m=\\x1B[39;49m\\x1B[38;5;28;43mself\\x1B[39;49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43moptions\\x1B[49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43mget\\x1B[49m\\x1B[43m(\\x1B[49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[38;5;124;43mencoding\\x1B[39;49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[43m,\\x1B[49m\\x1B[43m \\x1B[49m\\x1B[38;5;28;43;01mNone\\x1B[39;49;00m\\x1B[43m)\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m   1884\\x1B[0m \\x1B[43m    \\x1B[49m\\x1B[43mcompression\\x1B[49m\\x1B[38;5;241;43m=\\x1B[39;49m\\x1B[38;5;28;43mself\\x1B[39;49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43moptions\\x1B[49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43mget\\x1B[49m\\x1B[43m(\\x1B[49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[38;5;124;43mcompression\\x1B[39;49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[43m,\\x1B[49m\\x1B[43m \\x1B[49m\\x1B[38;5;28;43;01mNone\\x1B[39;49;00m\\x1B[43m)\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m   1885\\x1B[0m \\x1B[43m    \\x1B[49m\\x1B[43mmemory_map\\x1B[49m\\x1B[38;5;241;43m=\\x1B[39;49m\\x1B[38;5;28;43mself\\x1B[39;49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43moptions\\x1B[49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43mget\\x1B[49m\\x1B[43m(\\x1B[49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[38;5;124;43mmemory_map\\x1B[39;49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[43m,\\x1B[49m\\x1B[43m \\x1B[49m\\x1B[38;5;28;43;01mFalse\\x1B[39;49;00m\\x1B[43m)\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m   1886\\x1B[0m \\x1B[43m    \\x1B[49m\\x1B[43mis_text\\x1B[49m\\x1B[38;5;241;43m=\\x1B[39;49m\\x1B[43mis_text\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m   1887\\x1B[0m \\x1B[43m    \\x1B[49m\\x1B[43merrors\\x1B[49m\\x1B[38;5;241;43m=\\x1B[39;49m\\x1B[38;5;28;43mself\\x1B[39;49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43moptions\\x1B[49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43mget\\x1B[49m\\x1B[43m(\\x1B[49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[38;5;124;43mencoding_errors\\x1B[39;49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[43m,\\x1B[49m\\x1B[43m \\x1B[49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[38;5;124;43mstrict\\x1B[39;49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[43m)\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m   1888\\x1B[0m \\x1B[43m    \\x1B[49m\\x1B[43mstorage_options\\x1B[49m\\x1B[38;5;241;43m=\\x1B[39;49m\\x1B[38;5;28;43mself\\x1B[39;49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43moptions\\x1B[49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43mget\\x1B[49m\\x1B[43m(\\x1B[49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[38;5;124;43mstorage_options\\x1B[39;49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[43m,\\x1B[49m\\x1B[43m \\x1B[49m\\x1B[38;5;28;43;01mNone\\x1B[39;49;00m\\x1B[43m)\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m   1889\\x1B[0m \\x1B[43m\\x1B[49m\\x1B[43m)\\x1B[49m\\n' +\n      '\\x1B[1;32m   1890\\x1B[0m \\x1B[38;5;28;01massert\\x1B[39;00m \\x1B[38;5;28mself\\x1B[39m\\x1B[38;5;241m.\\x1B[39mhandles \\x1B[38;5;129;01mis\\x1B[39;00m \\x1B[38;5;129;01mnot\\x1B[39;00m \\x1B[38;5;28;01mNone\\x1B[39;00m\\n' +\n      '\\x1B[1;32m   1891\\x1B[0m f \\x1B[38;5;241m=\\x1B[39m \\x1B[38;5;28mself\\x1B[39m\\x1B[38;5;241m.\\x1B[39mhandles\\x1B[38;5;241m.\\x1B[39mhandle\\n',\n    'File \\x1B[0;32m~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/pandas/io/common.py:873\\x1B[0m, in \\x1B[0;36mget_handle\\x1B[0;34m(path_or_buf, mode, encoding, compression, memory_map, is_text, errors, storage_options)\\x1B[0m\\n' +\n      '\\x1B[1;32m    868\\x1B[0m \\x1B[38;5;28;01melif\\x1B[39;00m \\x1B[38;5;28misinstance\\x1B[39m(handle, \\x1B[38;5;28mstr\\x1B[39m):\\n' +\n      '\\x1B[1;32m    869\\x1B[0m     \\x1B[38;5;66;03m# Check whether the filename is to be opened in binary mode.\\x1B[39;00m\\n' +\n      \"\\x1B[1;32m    870\\x1B[0m     \\x1B[38;5;66;03m# Binary mode does not support 'encoding' and 'newline'.\\x1B[39;00m\\n\" +\n      '\\x1B[1;32m    871\\x1B[0m     \\x1B[38;5;28;01mif\\x1B[39;00m ioargs\\x1B[38;5;241m.\\x1B[39mencoding \\x1B[38;5;129;01mand\\x1B[39;00m \\x1B[38;5;124m\"\\x1B[39m\\x1B[38;5;124mb\\x1B[39m\\x1B[38;5;124m\"\\x1B[39m \\x1B[38;5;129;01mnot\\x1B[39;00m \\x1B[38;5;129;01min\\x1B[39;00m ioargs\\x1B[38;5;241m.\\x1B[39mmode:\\n' +\n      '\\x1B[1;32m    872\\x1B[0m         \\x1B[38;5;66;03m# Encoding\\x1B[39;00m\\n' +\n      '\\x1B[0;32m--> 873\\x1B[0m         handle \\x1B[38;5;241m=\\x1B[39m \\x1B[38;5;28;43mopen\\x1B[39;49m\\x1B[43m(\\x1B[49m\\n' +\n      '\\x1B[1;32m    874\\x1B[0m \\x1B[43m            \\x1B[49m\\x1B[43mhandle\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m    875\\x1B[0m \\x1B[43m            \\x1B[49m\\x1B[43mioargs\\x1B[49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43mmode\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m    876\\x1B[0m \\x1B[43m            \\x1B[49m\\x1B[43mencoding\\x1B[49m\\x1B[38;5;241;43m=\\x1B[39;49m\\x1B[43mioargs\\x1B[49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43mencoding\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m    877\\x1B[0m \\x1B[43m            \\x1B[49m\\x1B[43merrors\\x1B[49m\\x1B[38;5;241;43m=\\x1B[39;49m\\x1B[43merrors\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m    878\\x1B[0m \\x1B[43m            \\x1B[49m\\x1B[43mnewline\\x1B[49m\\x1B[38;5;241;43m=\\x1B[39;49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m    879\\x1B[0m \\x1B[43m        \\x1B[49m\\x1B[43m)\\x1B[49m\\n' +\n      '\\x1B[1;32m    880\\x1B[0m     \\x1B[38;5;28;01melse\\x1B[39;00m:\\n' +\n      '\\x1B[1;32m    881\\x1B[0m         \\x1B[38;5;66;03m# Binary mode\\x1B[39;00m\\n' +\n      '\\x1B[1;32m    882\\x1B[0m         handle \\x1B[38;5;241m=\\x1B[39m \\x1B[38;5;28mopen\\x1B[39m(handle, ioargs\\x1B[38;5;241m.\\x1B[39mmode)\\n',\n    \"\\x1B[0;31mFileNotFoundError\\x1B[0m: [Errno 2] No such file or directory: 'student.csv'\"\n  ]\n}\n07:46:50.792 [info] Disposing request as the cell (-1) was deleted ~/Aadi/Christ College/2) Data Mining/Exam/temp.ipynb\n07:46:50.792 [info] Disposing request as the cell (-1) was deleted ~/Aadi/Christ College/2) Data Mining/Exam/temp.ipynb\n07:58:55.871 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python -c \"import nbconvert;print('6af208d0-cb9c-427f-b937-ff563e17efdf')\"\n07:58:56.335 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python -c \"import jupyter;print('6af208d0-cb9c-427f-b937-ff563e17efdf')\"\n07:58:56.515 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python -m jupyter nbconvert /tmp/3b552403-d900-44f2-b24d-1985655ff9dd/Answer.ipynb --to pdf --output tmp-703000lZoAPUTlIcYL.pdf --output-dir /tmp --debug\n07:58:58.808 [error] Export failed Error: [NbConvertApp] Searching ['/home/~/.virtualenvs/r-reticulate/etc/jupyter', '/home/~/.jupyter', '/usr/local/etc/jupyter', '/etc/jupyter'] for config files\n[NbConvertApp] Looking for jupyter_config in /etc/jupyter\n[NbConvertApp] Looking for jupyter_config in /usr/local/etc/jupyter\n[NbConvertApp] Looking for jupyter_config in /home/~/.jupyter\n[NbConvertApp] Looking for jupyter_config in /home/~/.virtualenvs/r-reticulate/etc/jupyter\n[NbConvertApp] Looking for jupyter_nbconvert_config in /etc/jupyter\n[NbConvertApp] Looking for jupyter_nbconvert_config in /usr/local/etc/jupyter\n[NbConvertApp] Looking for jupyter_nbconvert_config in /home/~/.jupyter\n[NbConvertApp] Looking for jupyter_nbconvert_config in /home/~/.virtualenvs/r-reticulate/etc/jupyter\n[NbConvertApp] Looping through config variables with prefix \"JUPYTER_NBCONVERT\"\n[NbConvertApp] Converting notebook /tmp/3b552403-d900-44f2-b24d-1985655ff9dd/Answer.ipynb to pdf\n[NbConvertApp] Notebook name is 'tmp-703000lZoAPUTlIcYL'\n[NbConvertApp] Template paths:\n    /home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates/latex\n    /home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates/base\n    /home/~/.virtualenvs/r-reticulate/share/jupyter\n    /home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates\n    /home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates/compatibility\n    /home/~/snap/code/179/.local/share/jupyter\n    /home/~/snap/code/179/.local/share/jupyter/nbconvert/templates\n    /home/~/snap/code/179/.local/share/jupyter/nbconvert/templates/compatibility\n    /usr/local/share/jupyter\n    /usr/local/share/jupyter/nbconvert/templates\n    /usr/local/share/jupyter/nbconvert/templates/compatibility\n    /usr/share/jupyter\n    /usr/share/jupyter/nbconvert/templates\n    /usr/share/jupyter/nbconvert/templates/compatibility\n    /home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates\n[NbConvertApp] Applying preprocessor: TagRemovePreprocessor\n[NbConvertApp] Applying preprocessor: RegexRemovePreprocessor\n[NbConvertApp] Applying preprocessor: SVG2PDFPreprocessor\n[NbConvertApp] Applying preprocessor: LatexPreprocessor\n[NbConvertApp] Applying preprocessor: HighlightMagicsPreprocessor\n[NbConvertApp] Applying preprocessor: ExtractOutputPreprocessor\n[NbConvertApp] Applying preprocessor: ExtractAttachmentsPreprocessor\n[NbConvertApp] Attempting to load template index.tex.j2\n[NbConvertApp]     template_paths: /home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates/latex:/home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates/base:/home/~/.virtualenvs/r-reticulate/share/jupyter:/home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates:/home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates/compatibility:/home/~/snap/code/179/.local/share/jupyter:/home/~/snap/code/179/.local/share/jupyter/nbconvert/templates:/home/~/snap/code/179/.local/share/jupyter/nbconvert/templates/compatibility:/usr/local/share/jupyter:/usr/local/share/jupyter/nbconvert/templates:/usr/local/share/jupyter/nbconvert/templates/compatibility:/usr/share/jupyter:/usr/share/jupyter/nbconvert/templates:/usr/share/jupyter/nbconvert/templates/compatibility:/home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates\n[NbConvertApp] Support files will be in tmp-703000lZoAPUTlIcYL_files/\n[NbConvertApp] Making directory ./tmp-703000lZoAPUTlIcYL_files\n[NbConvertApp] Writing 162713 bytes to ./tmp-703000lZoAPUTlIcYL_files/tmp-703000lZoAPUTlIcYL_11_0.png\n[NbConvertApp] Writing 27765 bytes to notebook.tex\n[NbConvertApp] Building PDF\n[NbConvertApp] Running xelatex 3 times: ['xelatex', 'notebook.tex', '-quiet']\n[NbConvertApp] CRITICAL | xelatex failed: ['xelatex', 'notebook.tex', '-quiet']\nb\"This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex)\\n restricted \\\\write18 enabled.\\nentering extended mode\\n(./notebook.tex\\nLaTeX2e <2024-11-01> patch level 1\\nL3 programming layer <2024-11-02>\\n(/home/~/.TinyTeX/texmf-dist/tex/latex/base/article.cls\\nDocument Class: article 2024/06/29 v1.4n Standard LaTeX document class\\n(/home/~/.TinyTeX/texmf-dist/tex/latex/base/size11.clo)) (/home/~/.TinyTeX/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision.tex))) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/trig.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def))) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def)))) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex))) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/environ/environ.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/trimspaces/trimspaces.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex\\nLibrary (tcolorbox): 'tcbbreakable.code.tex' version '6.4.1'\\n(/home/~/.TinyTeX/texmf-dist/tex/latex/pdfcol/pdfcol.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty)))) (/home/~/.TinyTeX/texmf-dist/tex/latex/parskip/parskip.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))) (/home/~/.TinyTeX/texmf-dist/tex/latex/caption/caption.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/caption/caption3.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/float/float.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/enumerate.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty\\nFor additional information on amsmath, use the `?' option.\\n(/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/base/textcomp.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/upquote/upquote.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/eurosym/eurosym.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))) (/home/~/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/base/fontenc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/home/~/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/base/fix-cm.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/base/ts1enc.def)) (/home/~/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (/home/~/.TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/grffile/grffile.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/adjustbox/adjustbox.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex))) (/home/~/.TinyTeX/texmf-dist/tex/latex/adjustbox/adjcalc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/adjustbox/trimclip.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/collectbox/collectbox.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/adjustbox/tc-xetex.def))) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty)) (/home/~/.TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def) (/home/~/.TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def) (/home/~/.TinyTeX/texmf-dist/tex/latex/url/url.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def (/home/~/.TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty))) (/home/~/.TinyTeX/texmf-dist/tex/latex/titling/titling.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/longtable.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/array.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/calc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/enumitem/enumitem.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/soul/soul.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/soul/soul-ori.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty))\\n\\n! LaTeX Error: File `mathrsfs.sty' not found.\\n\\nType X to quit or <RETURN> to proceed,\\nor enter new name. (Default extension: sty)\\n\\nEnter file name: \\n! Emergency stop.\\n<read *> \\n         \\nl.85 ^^M\\n        \\nNo pages of output.\\nTranscript written on notebook.log.\\n\"\nTraceback (most recent call last):\n  File \"/home/~/.virtualenvs/r-reticulate/bin/jupyter-nbconvert\", line 8, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/jupyter_core/application.py\", line 283, in launch_instance\n    super().launch_instance(argv=argv, **kwargs)\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/traitlets/config/application.py\", line 1075, in launch_instance\n    app.start()\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/nbconvertapp.py\", line 420, in start\n    self.convert_notebooks()\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/nbconvertapp.py\", line 597, in convert_notebooks\n    self.convert_single_notebook(notebook_filename)\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/nbconvertapp.py\", line 563, in convert_single_notebook\n    output, resources = self.export_single_notebook(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/nbconvertapp.py\", line 487, in export_single_notebook\n    output, resources = self.exporter.from_filename(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/exporters/templateexporter.py\", line 386, in from_filename\n    return super().from_filename(filename, resources, **kw)  # type:ignore[return-value]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/exporters/exporter.py\", line 201, in from_filename\n    return self.from_file(f, resources=resources, **kw)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/exporters/templateexporter.py\", line 392, in from_file\n    return super().from_file(file_stream, resources, **kw)  # type:ignore[return-value]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/exporters/exporter.py\", line 220, in from_file\n    return self.from_notebook_node(\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/exporters/pdf.py\", line 197, in from_notebook_node\n    self.run_latex(tex_file)\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/exporters/pdf.py\", line 166, in run_latex\n    return self.run_command(\n           ^^^^^^^^^^^^^^^^^\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/exporters/pdf.py\", line 156, in run_command\n    raise raise_on_failure(msg)\nnbconvert.exporters.pdf.LatexFailed: PDF creating failed, captured latex output:\nFailed to run \"['xelatex', 'notebook.tex', '-quiet']\" command:\nThis is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex)\n restricted \\write18 enabled.\nentering extended mode\n(./notebook.tex\nLaTeX2e <2024-11-01> patch level 1\nL3 programming layer <2024-11-02>\n(/home/~/.TinyTeX/texmf-dist/tex/latex/base/article.cls\nDocument Class: article 2024/06/29 v1.4n Standard LaTeX document class\n(/home/~/.TinyTeX/texmf-dist/tex/latex/base/size11.clo)) (/home/~/.TinyTeX/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision.tex))) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/trig.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def))) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def)))) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex))) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/environ/environ.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/trimspaces/trimspaces.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex\nLibrary (tcolorbox): 'tcbbreakable.code.tex' version '6.4.1'\n(/home/~/.TinyTeX/texmf-dist/tex/latex/pdfcol/pdfcol.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty)))) (/home/~/.TinyTeX/texmf-dist/tex/latex/parskip/parskip.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))) (/home/~/.TinyTeX/texmf-dist/tex/latex/caption/caption.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/caption/caption3.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/float/float.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/enumerate.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty\nFor additional information on amsmath, use the `?' option.\n(/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/base/textcomp.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/upquote/upquote.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/eurosym/eurosym.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))) (/home/~/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/base/fontenc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/home/~/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/base/fix-cm.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/base/ts1enc.def)) (/home/~/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (/home/~/.TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/grffile/grffile.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/adjustbox/adjustbox.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex))) (/home/~/.TinyTeX/texmf-dist/tex/latex/adjustbox/adjcalc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/adjustbox/trimclip.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/collectbox/collectbox.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/adjustbox/tc-xetex.def))) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty)) (/home/~/.TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def) (/home/~/.TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def) (/home/~/.TinyTeX/texmf-dist/tex/latex/url/url.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def (/home/~/.TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty))) (/home/~/.TinyTeX/texmf-dist/tex/latex/titling/titling.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/longtable.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/array.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/calc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/enumitem/enumitem.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/soul/soul.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/soul/soul-ori.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty))\n\n! LaTeX Error: File `mathrsfs.sty' not found.\n\nType X to quit or <RETURN> to proceed,\nor enter new name. (Default extension: sty)\n\nEnter file name: \n! Emergency stop.\n<read *> \n         \nl.85 ^^M\n        \nNo pages of output.\nTranscript written on notebook.log.\n\n\n    at Cf.executeCommand (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:321:9552)\n    at zT.export (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:322:412)\n    at kb.performNbConvertExport (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:324:2500)\n    at kb.performExport (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:324:2190)\n    at kb.exportImpl (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:324:1798)\n    at kb.export (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:324:1530)\n    at C0.export (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:373:3134)\n    at cw.h (file:///snap/code/179/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32825)\n07:58:58.808 [error] If you have not installed xelatex (TeX), you will need to do so before you can export to PDF. For further instructions, please see https://nbconvert.readthedocs.io/en/latest/install.html#installing-tex. \nTo avoid installing xelatex (TeX), you might want to try exporting to HTML and using your browser's \"Print to PDF\" feature.\n",
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 45149
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 214,
+              "endColumn": 1
+            },
+            "text": "Visual Studio Code (1.96.2, undefined, desktop)\nJupyter Extension Version: 2024.11.0.\nPython Extension Version: 2024.22.2.\nPylance Extension Version: 2024.12.1.\nPlatform: linux (x64).\nTemp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2024.11.0\nWorkspace folder ~/Aadi/Christ College/2) Data Mining/Exam, Home = /home/atg\n07:32:38.445 [info] Starting Kernel (Python Path: ~/.virtualenvs/r-reticulate/bin/python, Venv, 3.12.7) for '~/Aadi/Christ College/2) Data Mining/Exam/Prev_paper.ipynb' (disableUI=true)\n07:32:38.745 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python -c \"import ipykernel; print(ipykernel.__version__); print(\"5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d\"); print(ipykernel.__file__)\"\n07:32:38.757 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v3fb737a4e6cd67e729354645dbfd84e5dc8463310.json\n    > cwd: //home/~/Aadi/Christ College/2) Data Mining/Exam\n07:32:38.777 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python -m pip list\n07:32:39.643 [info] Kernel successfully started\n07:32:39.654 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/pythonFiles/printJupyterDataDir.py\n07:32:42.445 [info] Dispose Kernel '~/Aadi/Christ College/2) Data Mining/Exam/Prev_paper.ipynb' associated with '~/Aadi/Christ College/2) Data Mining/Exam/Prev_paper.ipynb'\n07:39:35.461 [info] Starting Kernel (Python Path: ~/.virtualenvs/r-reticulate/bin/python, Venv, 3.12.7) for '~/Aadi/Christ College/2) Data Mining/Exam/temp.ipynb' (disableUI=true)\n07:39:35.491 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python -c \"import ipykernel; print(ipykernel.__version__); print(\"5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d\"); print(ipykernel.__file__)\"\n07:39:35.553 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python -m pip list\n07:39:35.609 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v3257a3480c4a5917dd78dc2dc13d5caba543697da.json\n    > cwd: //home/~/Aadi/Christ College/2) Data Mining/Exam\n07:39:36.262 [info] Kernel successfully started\n07:41:09.179 [warn] Cell completed with errors iu [Error]: [Errno 2] No such file or directory: 'student.csv'\n    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:297:4958) {\n  ename: 'FileNotFoundError',\n  evalue: \"[Errno 2] No such file or directory: 'student.csv'\",\n  traceback: [\n    '\\x1B[0;31m---------------------------------------------------------------------------\\x1B[0m',\n    '\\x1B[0;31mFileNotFoundError\\x1B[0m                         Traceback (most recent call last)',\n    'Cell \\x1B[0;32mIn[1], line 8\\x1B[0m\\n' +\n      '\\x1B[1;32m      5\\x1B[0m \\x1B[38;5;28;01mfrom\\x1B[39;00m \\x1B[38;5;21;01msklearn\\x1B[39;00m\\x1B[38;5;21;01m.\\x1B[39;00m\\x1B[38;5;21;01mpreprocessing\\x1B[39;00m \\x1B[38;5;28;01mimport\\x1B[39;00m LabelEncoder\\n' +\n      '\\x1B[1;32m      7\\x1B[0m \\x1B[38;5;66;03m# Load the dataset\\x1B[39;00m\\n' +\n      \"\\x1B[0;32m----> 8\\x1B[0m data \\x1B[38;5;241m=\\x1B[39m \\x1B[43mpd\\x1B[49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43mread_csv\\x1B[49m\\x1B[43m(\\x1B[49m\\x1B[38;5;124;43m'\\x1B[39;49m\\x1B[38;5;124;43mstudent.csv\\x1B[39;49m\\x1B[38;5;124;43m'\\x1B[39;49m\\x1B[43m)\\x1B[49m\\n\",\n    'File \\x1B[0;32m~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/pandas/io/parsers/readers.py:1026\\x1B[0m, in \\x1B[0;36mread_csv\\x1B[0;34m(filepath_or_buffer, sep, delimiter, header, names, index_col, usecols, dtype, engine, converters, true_values, false_values, skipinitialspace, skiprows, skipfooter, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_lines, parse_dates, infer_datetime_format, keep_date_col, date_parser, date_format, dayfirst, cache_dates, iterator, chunksize, compression, thousands, decimal, lineterminator, quotechar, quoting, doublequote, escapechar, comment, encoding, encoding_errors, dialect, on_bad_lines, delim_whitespace, low_memory, memory_map, float_precision, storage_options, dtype_backend)\\x1B[0m\\n' +\n      '\\x1B[1;32m   1013\\x1B[0m kwds_defaults \\x1B[38;5;241m=\\x1B[39m _refine_defaults_read(\\n' +\n      '\\x1B[1;32m   1014\\x1B[0m     dialect,\\n' +\n      '\\x1B[1;32m   1015\\x1B[0m     delimiter,\\n' +\n      '\\x1B[0;32m   (...)\\x1B[0m\\n' +\n      '\\x1B[1;32m   1022\\x1B[0m     dtype_backend\\x1B[38;5;241m=\\x1B[39mdtype_backend,\\n' +\n      '\\x1B[1;32m   1023\\x1B[0m )\\n' +\n      '\\x1B[1;32m   1024\\x1B[0m kwds\\x1B[38;5;241m.\\x1B[39mupdate(kwds_defaults)\\n' +\n      '\\x1B[0;32m-> 1026\\x1B[0m \\x1B[38;5;28;01mreturn\\x1B[39;00m \\x1B[43m_read\\x1B[49m\\x1B[43m(\\x1B[49m\\x1B[43mfilepath_or_buffer\\x1B[49m\\x1B[43m,\\x1B[49m\\x1B[43m \\x1B[49m\\x1B[43mkwds\\x1B[49m\\x1B[43m)\\x1B[49m\\n',\n    'File \\x1B[0;32m~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/pandas/io/parsers/readers.py:620\\x1B[0m, in \\x1B[0;36m_read\\x1B[0;34m(filepath_or_buffer, kwds)\\x1B[0m\\n' +\n      '\\x1B[1;32m    617\\x1B[0m _validate_names(kwds\\x1B[38;5;241m.\\x1B[39mget(\\x1B[38;5;124m\"\\x1B[39m\\x1B[38;5;124mnames\\x1B[39m\\x1B[38;5;124m\"\\x1B[39m, \\x1B[38;5;28;01mNone\\x1B[39;00m))\\n' +\n      '\\x1B[1;32m    619\\x1B[0m \\x1B[38;5;66;03m# Create the parser.\\x1B[39;00m\\n' +\n      '\\x1B[0;32m--> 620\\x1B[0m parser \\x1B[38;5;241m=\\x1B[39m \\x1B[43mTextFileReader\\x1B[49m\\x1B[43m(\\x1B[49m\\x1B[43mfilepath_or_buffer\\x1B[49m\\x1B[43m,\\x1B[49m\\x1B[43m \\x1B[49m\\x1B[38;5;241;43m*\\x1B[39;49m\\x1B[38;5;241;43m*\\x1B[39;49m\\x1B[43mkwds\\x1B[49m\\x1B[43m)\\x1B[49m\\n' +\n      '\\x1B[1;32m    622\\x1B[0m \\x1B[38;5;28;01mif\\x1B[39;00m chunksize \\x1B[38;5;129;01mor\\x1B[39;00m iterator:\\n' +\n      '\\x1B[1;32m    623\\x1B[0m     \\x1B[38;5;28;01mreturn\\x1B[39;00m parser\\n',\n    'File \\x1B[0;32m~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/pandas/io/parsers/readers.py:1620\\x1B[0m, in \\x1B[0;36mTextFileReader.__init__\\x1B[0;34m(self, f, engine, **kwds)\\x1B[0m\\n' +\n      '\\x1B[1;32m   1617\\x1B[0m     \\x1B[38;5;28mself\\x1B[39m\\x1B[38;5;241m.\\x1B[39moptions[\\x1B[38;5;124m\"\\x1B[39m\\x1B[38;5;124mhas_index_names\\x1B[39m\\x1B[38;5;124m\"\\x1B[39m] \\x1B[38;5;241m=\\x1B[39m kwds[\\x1B[38;5;124m\"\\x1B[39m\\x1B[38;5;124mhas_index_names\\x1B[39m\\x1B[38;5;124m\"\\x1B[39m]\\n' +\n      '\\x1B[1;32m   1619\\x1B[0m \\x1B[38;5;28mself\\x1B[39m\\x1B[38;5;241m.\\x1B[39mhandles: IOHandles \\x1B[38;5;241m|\\x1B[39m \\x1B[38;5;28;01mNone\\x1B[39;00m \\x1B[38;5;241m=\\x1B[39m \\x1B[38;5;28;01mNone\\x1B[39;00m\\n' +\n      '\\x1B[0;32m-> 1620\\x1B[0m \\x1B[38;5;28mself\\x1B[39m\\x1B[38;5;241m.\\x1B[39m_engine \\x1B[38;5;241m=\\x1B[39m \\x1B[38;5;28;43mself\\x1B[39;49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43m_make_engine\\x1B[49m\\x1B[43m(\\x1B[49m\\x1B[43mf\\x1B[49m\\x1B[43m,\\x1B[49m\\x1B[43m \\x1B[49m\\x1B[38;5;28;43mself\\x1B[39;49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43mengine\\x1B[49m\\x1B[43m)\\x1B[49m\\n',\n    'File \\x1B[0;32m~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/pandas/io/parsers/readers.py:1880\\x1B[0m, in \\x1B[0;36mTextFileReader._make_engine\\x1B[0;34m(self, f, engine)\\x1B[0m\\n' +\n      '\\x1B[1;32m   1878\\x1B[0m     \\x1B[38;5;28;01mif\\x1B[39;00m \\x1B[38;5;124m\"\\x1B[39m\\x1B[38;5;124mb\\x1B[39m\\x1B[38;5;124m\"\\x1B[39m \\x1B[38;5;129;01mnot\\x1B[39;00m \\x1B[38;5;129;01min\\x1B[39;00m mode:\\n' +\n      '\\x1B[1;32m   1879\\x1B[0m         mode \\x1B[38;5;241m+\\x1B[39m\\x1B[38;5;241m=\\x1B[39m \\x1B[38;5;124m\"\\x1B[39m\\x1B[38;5;124mb\\x1B[39m\\x1B[38;5;124m\"\\x1B[39m\\n' +\n      '\\x1B[0;32m-> 1880\\x1B[0m \\x1B[38;5;28mself\\x1B[39m\\x1B[38;5;241m.\\x1B[39mhandles \\x1B[38;5;241m=\\x1B[39m \\x1B[43mget_handle\\x1B[49m\\x1B[43m(\\x1B[49m\\n' +\n      '\\x1B[1;32m   1881\\x1B[0m \\x1B[43m    \\x1B[49m\\x1B[43mf\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m   1882\\x1B[0m \\x1B[43m    \\x1B[49m\\x1B[43mmode\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m   1883\\x1B[0m \\x1B[43m    \\x1B[49m\\x1B[43mencoding\\x1B[49m\\x1B[38;5;241;43m=\\x1B[39;49m\\x1B[38;5;28;43mself\\x1B[39;49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43moptions\\x1B[49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43mget\\x1B[49m\\x1B[43m(\\x1B[49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[38;5;124;43mencoding\\x1B[39;49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[43m,\\x1B[49m\\x1B[43m \\x1B[49m\\x1B[38;5;28;43;01mNone\\x1B[39;49;00m\\x1B[43m)\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m   1884\\x1B[0m \\x1B[43m    \\x1B[49m\\x1B[43mcompression\\x1B[49m\\x1B[38;5;241;43m=\\x1B[39;49m\\x1B[38;5;28;43mself\\x1B[39;49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43moptions\\x1B[49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43mget\\x1B[49m\\x1B[43m(\\x1B[49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[38;5;124;43mcompression\\x1B[39;49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[43m,\\x1B[49m\\x1B[43m \\x1B[49m\\x1B[38;5;28;43;01mNone\\x1B[39;49;00m\\x1B[43m)\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m   1885\\x1B[0m \\x1B[43m    \\x1B[49m\\x1B[43mmemory_map\\x1B[49m\\x1B[38;5;241;43m=\\x1B[39;49m\\x1B[38;5;28;43mself\\x1B[39;49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43moptions\\x1B[49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43mget\\x1B[49m\\x1B[43m(\\x1B[49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[38;5;124;43mmemory_map\\x1B[39;49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[43m,\\x1B[49m\\x1B[43m \\x1B[49m\\x1B[38;5;28;43;01mFalse\\x1B[39;49;00m\\x1B[43m)\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m   1886\\x1B[0m \\x1B[43m    \\x1B[49m\\x1B[43mis_text\\x1B[49m\\x1B[38;5;241;43m=\\x1B[39;49m\\x1B[43mis_text\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m   1887\\x1B[0m \\x1B[43m    \\x1B[49m\\x1B[43merrors\\x1B[49m\\x1B[38;5;241;43m=\\x1B[39;49m\\x1B[38;5;28;43mself\\x1B[39;49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43moptions\\x1B[49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43mget\\x1B[49m\\x1B[43m(\\x1B[49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[38;5;124;43mencoding_errors\\x1B[39;49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[43m,\\x1B[49m\\x1B[43m \\x1B[49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[38;5;124;43mstrict\\x1B[39;49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[43m)\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m   1888\\x1B[0m \\x1B[43m    \\x1B[49m\\x1B[43mstorage_options\\x1B[49m\\x1B[38;5;241;43m=\\x1B[39;49m\\x1B[38;5;28;43mself\\x1B[39;49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43moptions\\x1B[49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43mget\\x1B[49m\\x1B[43m(\\x1B[49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[38;5;124;43mstorage_options\\x1B[39;49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[43m,\\x1B[49m\\x1B[43m \\x1B[49m\\x1B[38;5;28;43;01mNone\\x1B[39;49;00m\\x1B[43m)\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m   1889\\x1B[0m \\x1B[43m\\x1B[49m\\x1B[43m)\\x1B[49m\\n' +\n      '\\x1B[1;32m   1890\\x1B[0m \\x1B[38;5;28;01massert\\x1B[39;00m \\x1B[38;5;28mself\\x1B[39m\\x1B[38;5;241m.\\x1B[39mhandles \\x1B[38;5;129;01mis\\x1B[39;00m \\x1B[38;5;129;01mnot\\x1B[39;00m \\x1B[38;5;28;01mNone\\x1B[39;00m\\n' +\n      '\\x1B[1;32m   1891\\x1B[0m f \\x1B[38;5;241m=\\x1B[39m \\x1B[38;5;28mself\\x1B[39m\\x1B[38;5;241m.\\x1B[39mhandles\\x1B[38;5;241m.\\x1B[39mhandle\\n',\n    'File \\x1B[0;32m~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/pandas/io/common.py:873\\x1B[0m, in \\x1B[0;36mget_handle\\x1B[0;34m(path_or_buf, mode, encoding, compression, memory_map, is_text, errors, storage_options)\\x1B[0m\\n' +\n      '\\x1B[1;32m    868\\x1B[0m \\x1B[38;5;28;01melif\\x1B[39;00m \\x1B[38;5;28misinstance\\x1B[39m(handle, \\x1B[38;5;28mstr\\x1B[39m):\\n' +\n      '\\x1B[1;32m    869\\x1B[0m     \\x1B[38;5;66;03m# Check whether the filename is to be opened in binary mode.\\x1B[39;00m\\n' +\n      \"\\x1B[1;32m    870\\x1B[0m     \\x1B[38;5;66;03m# Binary mode does not support 'encoding' and 'newline'.\\x1B[39;00m\\n\" +\n      '\\x1B[1;32m    871\\x1B[0m     \\x1B[38;5;28;01mif\\x1B[39;00m ioargs\\x1B[38;5;241m.\\x1B[39mencoding \\x1B[38;5;129;01mand\\x1B[39;00m \\x1B[38;5;124m\"\\x1B[39m\\x1B[38;5;124mb\\x1B[39m\\x1B[38;5;124m\"\\x1B[39m \\x1B[38;5;129;01mnot\\x1B[39;00m \\x1B[38;5;129;01min\\x1B[39;00m ioargs\\x1B[38;5;241m.\\x1B[39mmode:\\n' +\n      '\\x1B[1;32m    872\\x1B[0m         \\x1B[38;5;66;03m# Encoding\\x1B[39;00m\\n' +\n      '\\x1B[0;32m--> 873\\x1B[0m         handle \\x1B[38;5;241m=\\x1B[39m \\x1B[38;5;28;43mopen\\x1B[39;49m\\x1B[43m(\\x1B[49m\\n' +\n      '\\x1B[1;32m    874\\x1B[0m \\x1B[43m            \\x1B[49m\\x1B[43mhandle\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m    875\\x1B[0m \\x1B[43m            \\x1B[49m\\x1B[43mioargs\\x1B[49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43mmode\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m    876\\x1B[0m \\x1B[43m            \\x1B[49m\\x1B[43mencoding\\x1B[49m\\x1B[38;5;241;43m=\\x1B[39;49m\\x1B[43mioargs\\x1B[49m\\x1B[38;5;241;43m.\\x1B[39;49m\\x1B[43mencoding\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m    877\\x1B[0m \\x1B[43m            \\x1B[49m\\x1B[43merrors\\x1B[49m\\x1B[38;5;241;43m=\\x1B[39;49m\\x1B[43merrors\\x1B[49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m    878\\x1B[0m \\x1B[43m            \\x1B[49m\\x1B[43mnewline\\x1B[49m\\x1B[38;5;241;43m=\\x1B[39;49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[38;5;124;43m\"\\x1B[39;49m\\x1B[43m,\\x1B[49m\\n' +\n      '\\x1B[1;32m    879\\x1B[0m \\x1B[43m        \\x1B[49m\\x1B[43m)\\x1B[49m\\n' +\n      '\\x1B[1;32m    880\\x1B[0m     \\x1B[38;5;28;01melse\\x1B[39;00m:\\n' +\n      '\\x1B[1;32m    881\\x1B[0m         \\x1B[38;5;66;03m# Binary mode\\x1B[39;00m\\n' +\n      '\\x1B[1;32m    882\\x1B[0m         handle \\x1B[38;5;241m=\\x1B[39m \\x1B[38;5;28mopen\\x1B[39m(handle, ioargs\\x1B[38;5;241m.\\x1B[39mmode)\\n',\n    \"\\x1B[0;31mFileNotFoundError\\x1B[0m: [Errno 2] No such file or directory: 'student.csv'\"\n  ]\n}\n07:46:50.792 [info] Disposing request as the cell (-1) was deleted ~/Aadi/Christ College/2) Data Mining/Exam/temp.ipynb\n07:46:50.792 [info] Disposing request as the cell (-1) was deleted ~/Aadi/Christ College/2) Data Mining/Exam/temp.ipynb\n07:58:55.871 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python -c \"import nbconvert;print('6af208d0-cb9c-427f-b937-ff563e17efdf')\"\n07:58:56.335 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python -c \"import jupyter;print('6af208d0-cb9c-427f-b937-ff563e17efdf')\"\n07:58:56.515 [info] Process Execution: ~/.virtualenvs/r-reticulate/bin/python -m jupyter nbconvert /tmp/3b552403-d900-44f2-b24d-1985655ff9dd/Answer.ipynb --to pdf --output tmp-703000lZoAPUTlIcYL.pdf --output-dir /tmp --debug\n07:58:58.808 [error] Export failed Error: [NbConvertApp] Searching ['/home/~/.virtualenvs/r-reticulate/etc/jupyter', '/home/~/.jupyter', '/usr/local/etc/jupyter', '/etc/jupyter'] for config files\n[NbConvertApp] Looking for jupyter_config in /etc/jupyter\n[NbConvertApp] Looking for jupyter_config in /usr/local/etc/jupyter\n[NbConvertApp] Looking for jupyter_config in /home/~/.jupyter\n[NbConvertApp] Looking for jupyter_config in /home/~/.virtualenvs/r-reticulate/etc/jupyter\n[NbConvertApp] Looking for jupyter_nbconvert_config in /etc/jupyter\n[NbConvertApp] Looking for jupyter_nbconvert_config in /usr/local/etc/jupyter\n[NbConvertApp] Looking for jupyter_nbconvert_config in /home/~/.jupyter\n[NbConvertApp] Looking for jupyter_nbconvert_config in /home/~/.virtualenvs/r-reticulate/etc/jupyter\n[NbConvertApp] Looping through config variables with prefix \"JUPYTER_NBCONVERT\"\n[NbConvertApp] Converting notebook /tmp/3b552403-d900-44f2-b24d-1985655ff9dd/Answer.ipynb to pdf\n[NbConvertApp] Notebook name is 'tmp-703000lZoAPUTlIcYL'\n[NbConvertApp] Template paths:\n    /home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates/latex\n    /home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates/base\n    /home/~/.virtualenvs/r-reticulate/share/jupyter\n    /home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates\n    /home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates/compatibility\n    /home/~/snap/code/179/.local/share/jupyter\n    /home/~/snap/code/179/.local/share/jupyter/nbconvert/templates\n    /home/~/snap/code/179/.local/share/jupyter/nbconvert/templates/compatibility\n    /usr/local/share/jupyter\n    /usr/local/share/jupyter/nbconvert/templates\n    /usr/local/share/jupyter/nbconvert/templates/compatibility\n    /usr/share/jupyter\n    /usr/share/jupyter/nbconvert/templates\n    /usr/share/jupyter/nbconvert/templates/compatibility\n    /home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates\n[NbConvertApp] Applying preprocessor: TagRemovePreprocessor\n[NbConvertApp] Applying preprocessor: RegexRemovePreprocessor\n[NbConvertApp] Applying preprocessor: SVG2PDFPreprocessor\n[NbConvertApp] Applying preprocessor: LatexPreprocessor\n[NbConvertApp] Applying preprocessor: HighlightMagicsPreprocessor\n[NbConvertApp] Applying preprocessor: ExtractOutputPreprocessor\n[NbConvertApp] Applying preprocessor: ExtractAttachmentsPreprocessor\n[NbConvertApp] Attempting to load template index.tex.j2\n[NbConvertApp]     template_paths: /home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates/latex:/home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates/base:/home/~/.virtualenvs/r-reticulate/share/jupyter:/home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates:/home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates/compatibility:/home/~/snap/code/179/.local/share/jupyter:/home/~/snap/code/179/.local/share/jupyter/nbconvert/templates:/home/~/snap/code/179/.local/share/jupyter/nbconvert/templates/compatibility:/usr/local/share/jupyter:/usr/local/share/jupyter/nbconvert/templates:/usr/local/share/jupyter/nbconvert/templates/compatibility:/usr/share/jupyter:/usr/share/jupyter/nbconvert/templates:/usr/share/jupyter/nbconvert/templates/compatibility:/home/~/.virtualenvs/r-reticulate/share/jupyter/nbconvert/templates\n[NbConvertApp] Support files will be in tmp-703000lZoAPUTlIcYL_files/\n[NbConvertApp] Making directory ./tmp-703000lZoAPUTlIcYL_files\n[NbConvertApp] Writing 162713 bytes to ./tmp-703000lZoAPUTlIcYL_files/tmp-703000lZoAPUTlIcYL_11_0.png\n[NbConvertApp] Writing 27765 bytes to notebook.tex\n[NbConvertApp] Building PDF\n[NbConvertApp] Running xelatex 3 times: ['xelatex', 'notebook.tex', '-quiet']\n[NbConvertApp] CRITICAL | xelatex failed: ['xelatex', 'notebook.tex', '-quiet']\nb\"This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex)\\n restricted \\\\write18 enabled.\\nentering extended mode\\n(./notebook.tex\\nLaTeX2e <2024-11-01> patch level 1\\nL3 programming layer <2024-11-02>\\n(/home/~/.TinyTeX/texmf-dist/tex/latex/base/article.cls\\nDocument Class: article 2024/06/29 v1.4n Standard LaTeX document class\\n(/home/~/.TinyTeX/texmf-dist/tex/latex/base/size11.clo)) (/home/~/.TinyTeX/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision.tex))) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/trig.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def))) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def)))) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex))) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/environ/environ.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/trimspaces/trimspaces.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex\\nLibrary (tcolorbox): 'tcbbreakable.code.tex' version '6.4.1'\\n(/home/~/.TinyTeX/texmf-dist/tex/latex/pdfcol/pdfcol.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty)))) (/home/~/.TinyTeX/texmf-dist/tex/latex/parskip/parskip.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))) (/home/~/.TinyTeX/texmf-dist/tex/latex/caption/caption.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/caption/caption3.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/float/float.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/enumerate.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty\\nFor additional information on amsmath, use the `?' option.\\n(/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/base/textcomp.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/upquote/upquote.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/eurosym/eurosym.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))) (/home/~/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/base/fontenc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/home/~/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/base/fix-cm.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/base/ts1enc.def)) (/home/~/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (/home/~/.TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/grffile/grffile.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/adjustbox/adjustbox.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex))) (/home/~/.TinyTeX/texmf-dist/tex/latex/adjustbox/adjcalc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/adjustbox/trimclip.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/collectbox/collectbox.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/adjustbox/tc-xetex.def))) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty)) (/home/~/.TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def) (/home/~/.TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def) (/home/~/.TinyTeX/texmf-dist/tex/latex/url/url.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def (/home/~/.TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty))) (/home/~/.TinyTeX/texmf-dist/tex/latex/titling/titling.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/longtable.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/array.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/calc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/enumitem/enumitem.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/soul/soul.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/soul/soul-ori.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty))\\n\\n! LaTeX Error: File `mathrsfs.sty' not found.\\n\\nType X to quit or <RETURN> to proceed,\\nor enter new name. (Default extension: sty)\\n\\nEnter file name: \\n! Emergency stop.\\n<read *> \\n         \\nl.85 ^^M\\n        \\nNo pages of output.\\nTranscript written on notebook.log.\\n\"\nTraceback (most recent call last):\n  File \"/home/~/.virtualenvs/r-reticulate/bin/jupyter-nbconvert\", line 8, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/jupyter_core/application.py\", line 283, in launch_instance\n    super().launch_instance(argv=argv, **kwargs)\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/traitlets/config/application.py\", line 1075, in launch_instance\n    app.start()\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/nbconvertapp.py\", line 420, in start\n    self.convert_notebooks()\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/nbconvertapp.py\", line 597, in convert_notebooks\n    self.convert_single_notebook(notebook_filename)\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/nbconvertapp.py\", line 563, in convert_single_notebook\n    output, resources = self.export_single_notebook(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/nbconvertapp.py\", line 487, in export_single_notebook\n    output, resources = self.exporter.from_filename(\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/exporters/templateexporter.py\", line 386, in from_filename\n    return super().from_filename(filename, resources, **kw)  # type:ignore[return-value]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/exporters/exporter.py\", line 201, in from_filename\n    return self.from_file(f, resources=resources, **kw)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/exporters/templateexporter.py\", line 392, in from_file\n    return super().from_file(file_stream, resources, **kw)  # type:ignore[return-value]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/exporters/exporter.py\", line 220, in from_file\n    return self.from_notebook_node(\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/exporters/pdf.py\", line 197, in from_notebook_node\n    self.run_latex(tex_file)\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/exporters/pdf.py\", line 166, in run_latex\n    return self.run_command(\n           ^^^^^^^^^^^^^^^^^\n  File \"/home/~/.virtualenvs/r-reticulate/lib/python3.12/site-packages/nbconvert/exporters/pdf.py\", line 156, in run_command\n    raise raise_on_failure(msg)\nnbconvert.exporters.pdf.LatexFailed: PDF creating failed, captured latex output:\nFailed to run \"['xelatex', 'notebook.tex', '-quiet']\" command:\nThis is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex)\n restricted \\write18 enabled.\nentering extended mode\n(./notebook.tex\nLaTeX2e <2024-11-01> patch level 1\nL3 programming layer <2024-11-02>\n(/home/~/.TinyTeX/texmf-dist/tex/latex/base/article.cls\nDocument Class: article 2024/06/29 v1.4n Standard LaTeX document class\n(/home/~/.TinyTeX/texmf-dist/tex/latex/base/size11.clo)) (/home/~/.TinyTeX/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision.tex))) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/trig.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def))) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def)))) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/home/~/.TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex)) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex) (/home/~/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex))) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/environ/environ.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/trimspaces/trimspaces.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex\nLibrary (tcolorbox): 'tcbbreakable.code.tex' version '6.4.1'\n(/home/~/.TinyTeX/texmf-dist/tex/latex/pdfcol/pdfcol.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty)))) (/home/~/.TinyTeX/texmf-dist/tex/latex/parskip/parskip.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))) (/home/~/.TinyTeX/texmf-dist/tex/latex/caption/caption.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/caption/caption3.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/float/float.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/enumerate.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty\nFor additional information on amsmath, use the `?' option.\n(/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/base/textcomp.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/upquote/upquote.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/eurosym/eurosym.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))) (/home/~/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/base/fontenc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/home/~/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/base/fix-cm.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/base/ts1enc.def)) (/home/~/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (/home/~/.TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/grffile/grffile.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/adjustbox/adjustbox.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/home/~/.TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex))) (/home/~/.TinyTeX/texmf-dist/tex/latex/adjustbox/adjcalc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/adjustbox/trimclip.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/collectbox/collectbox.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/adjustbox/tc-xetex.def))) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty)) (/home/~/.TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def) (/home/~/.TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def) (/home/~/.TinyTeX/texmf-dist/tex/latex/url/url.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty)) (/home/~/.TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def (/home/~/.TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (/home/~/.TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty))) (/home/~/.TinyTeX/texmf-dist/tex/latex/titling/titling.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/longtable.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/array.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/tools/calc.sty) (/home/~/.TinyTeX/texmf-dist/tex/latex/enumitem/enumitem.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/soul/soul.sty (/home/~/.TinyTeX/texmf-dist/tex/generic/soul/soul-ori.sty) (/home/~/.TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty))\n\n! LaTeX Error: File `mathrsfs.sty' not found.\n\nType X to quit or <RETURN> to proceed,\nor enter new name. (Default extension: sty)\n\nEnter file name: \n! Emergency stop.\n<read *> \n         \nl.85 ^^M\n        \nNo pages of output.\nTranscript written on notebook.log.\n\n\n    at Cf.executeCommand (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:321:9552)\n    at zT.export (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:322:412)\n    at kb.performNbConvertExport (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:324:2500)\n    at kb.performExport (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:324:2190)\n    at kb.exportImpl (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:324:1798)\n    at kb.export (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:324:1530)\n    at C0.export (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.11.0-linux-x64/dist/extension.node.js:373:3134)\n    at cw.h (file:///snap/code/179/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32825)\n07:58:58.808 [error] If you have not installed xelatex (TeX), you will need to do so before you can export to PDF. For further instructions, please see https://nbconvert.readthedocs.io/en/latest/install.html#installing-tex. \nTo avoid installing xelatex (TeX), you might want to try exporting to HTML and using your browser's \"Print to PDF\" feature.\n",
+            "kind": "text"
+          }
+        ]
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [],
+      "responseId": "response_17e8c200-41b3-4e93-b5bd-6fa022228e74",
+      "isHidden": false,
+      "result": {
+        "errorDetails": {
+          "message": "Sorry, this message is too long. Please try a shorter question."
+        }
+      },
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "supportsSlowVariables": true,
+          "requester": {
+            "name": "ATG13",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/65368393",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1736476237714
+    },
+    {
+      "requestId": "request_d927b3db-34b0-4e6a-81e0-5d471c62d946",
+      "message": {
+        "text": "! LaTeX Error: File `mathrsfs.sty' not found.\n",
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 46
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 2,
+              "endColumn": 1
+            },
+            "text": "! LaTeX Error: File `mathrsfs.sty' not found.\n",
+            "kind": "text"
+          }
+        ]
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [],
+      "responseId": "response_a29c6ad4-ec34-4ad3-8149-b7ae27eee59e",
+      "isHidden": false,
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "supportsSlowVariables": true,
+          "requester": {
+            "name": "ATG13",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/65368393",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1736476419436
+    }
+  ],
+  "sessionId": "b2e23f71-a833-4c99-a2e2-fdcc025f9d99",
+  "creationDate": 1736475140860,
+  "isImported": false,
+  "lastMessageDate": 1736476419436,
+  "customTitle": "Model evaluation results interpretation",
+  "isNew": false
+}

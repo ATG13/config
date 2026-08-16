@@ -1,0 +1,22 @@
+2026-07-31 00:17:30.049 [info] Agent Host process started successfully
+2026-07-31 00:17:30.049 [error] CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-userdata:/home/atg/.config/Code/User'
+    at rs.withProvider (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:866:36782)
+    at async rs.doWatch (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:866:49601)
+    at async file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:866:49291
+2026-07-31 00:17:30.049 [error] CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-userdata:/home/atg/.config/Code/User/settings.json'
+    at rs.withProvider (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:866:36782)
+    at async rs.doWatch (file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:866:49601)
+    at async file:///usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js:866:49291
+2026-07-31 00:17:30.058 [info] AgentService initialized
+2026-07-31 00:17:30.066 [info] Registering agent provider: copilotcli
+2026-07-31 00:17:30.068 [info] Registering agent provider: claude
+2026-07-31 00:17:30.100 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-0c34c496d44a/UBR8epAEXATZlD0LrLflTw.sock
+2026-07-31 00:17:30.111 [info] [CommandAutoApprover] Tree-sitter initialized successfully
+2026-07-31 00:17:30.113 [info] [ProtocolServer] Initialize: clientId=56da678c-05d8-4e0e-aeee-c52bb5079afb, protocolVersions=[0.7.0]
+2026-07-31 00:17:35.791 [info] [Copilot] Listing sessions...
+2026-07-31 00:17:35.792 [info] [Copilot] Starting CopilotClient...
+2026-07-31 00:17:35.798 [info] [Claude] SDK not downloaded yet; deferring session list until a session triggers the download
+2026-07-31 00:17:36.802 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-07-31 00:17:36.807 [info] [Copilot] Resolved CLI path: /usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/index.js
+2026-07-31 00:17:37.182 [info] [Copilot] CopilotClient started successfully
+2026-07-31 00:17:37.184 [info] [Copilot] Found 0 sessions

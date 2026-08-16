@@ -1,0 +1,116 @@
+\documentclass{article}
+\usepackage{multicol}
+
+\begin{document}
+\begin{multicols}{2}
+
+
+    
+Notes
+
+RM)M3.1.1 Managing risk
+
+Learning goals:
+
+1)  What is risk ?
+
+2)  How can we calculate risk ?
+
+3)  How can we mitigate the risk ?
+
+Introduction
+
+**Risky** versus **Uncertain events**
+
+Risky:
+
+Likelihood / probability of the outcomes can be [calculated]{.underline}.\
+Through past trials or other methods
+
+Ex: A coin toss (H or T)
+
+Uncertain:
+
+[Cannot quantify]{.underline} the probability of the outcome.
+
+Ex: Technological breakthroughs, Pandemics, etc
+
+Statistical concepts
+
+**Probability density function:**
+
+It is a function that assigns the probability of the outcomes of risky events.
+
+Can be discrete or continuous.
+
+**Random variables:**
+
+Numerical value to the outcome of a risky event ?
+
+\\
+
+**Expected values:**
+
+Mean of the outcomes.
+
+Represented with$$
+E(y)=\sum_{j=1}^n p_j y_j 
+$$
+
+Where
+
+\space p~j -~ Probability of event j
+
+\space Yj - Random variable j
+
+AND
+
+$$
+\sum_{j=1}^n p_j = 1$$
+
+is always true.
+
+**Variance and standard deviation:**
+
+Basic formula
+
+$$
+\operatorname{Variance}(y)=\sigma_y^2=\sum{j=1}^n p_j\left[y_j-E(y)\right]^2
+$$
+
+Variance is used to calculate the "risk" fo the given random variable.
+
+**Risk premiums and certainty equivalent incomes:**
+
+Concept of **certainty equivalent income** - Is the amount of money you would take in [absolute certainty]{.underline} [instead]{.underline} of taking a [riskier trade]{.underline} with a potential for higher return.
+
+Concept of **risk premium** -
+
+If an investor would pay a [positive risk premium]{.underline} to receive an investments expected value with certainty, then the investor is [risk averse]{.underline}.
+
+If the investor would [pay nothing]{.underline} to receive an investments expected value with certainty, the investor is [risk neutral]{.underline}.
+
+If the investor [would pay]{.underline} to keep the variability (the investor enjoys gambling), we would say the investor is [risk preferring]{.underline}.
+
+We can calculate the Certainty Equivalent Income:
+
+CEI = E(x) - Premium
+
+$$
+y_{C E}^i=E(y)-\frac{\lambda^i}{2} \sigma_y^2
+$$
+
+y~ce~ - Certainty Equivalent Income
+
+E(y) - Expected value of the investment
+
+The other - Risk Premium
+
+lambda - Risk preference measure
+
+lambda/2 - The risk aversion coefficient (Imagine it like a slope)
+
+**Expected value-variance criterion:**
+
+\end{multicols}{2}  
+\end{document}

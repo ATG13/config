@@ -1,0 +1,51 @@
+{
+  "customer_diagnostic": {
+    "borrower_experience": "Fresh",
+    "lti_ratio": "High LTI",
+    "primary_goal": "Complete Faster",
+    "primary_fear": "High Fear"
+  },
+  "framework_mapping": {
+    "target_financial_profile": "P2: Stressed Fast-Tracker",
+    "target_service_profile": "Guided Shepherd"
+  },
+  "financial_recommendations_comparison": {
+    "pillar_1_tenure_structure": {
+      "advisor_recommended": "15-year baseline contractual tenure with an effective target closure of 12.1 to 13.5 years via overdraft interest savings[cite: 2].",
+      "framework_suggested": "Dual-Phase tenure structure (25-year contractual tenure with a 10-year effective target)[cite: 2].",
+      "difference": "The advisor locked in a short 15-year contractual tenure, whereas the framework prescribes a maximum 25-year contractual tenure to lower mandatory monthly obligations for High LTI cash-flow preservation while aggressively targeting a 10-year payoff[cite: 2]."
+    },
+    "pillar_2_product_architecture": {
+      "advisor_recommended": "Overdraft / Home Saver facility (via Bank of India, PNB, ICICI, or Axis)[cite: 2].",
+      "framework_suggested": "$0 Fee Floating loan[cite: 2].",
+      "difference": "Advisor recommended an Overdraft product carrying potential interest rate premiums (0.25%–0.50%) and operational complexity, whereas the framework recommends a standard $0 Fee Floating loan[cite: 2]."
+    },
+    "pillar_3_risk_mitigation": {
+      "advisor_recommended": "Maintain an emergency liquidity corpus of ₹18–20 lakhs (6 months EMI + 6 months expenses) in the OD account; avoid bundled single-premium life insurance; complete loan disbursement prior to final payslip during an employer transition[cite: 2].",
+      "framework_suggested": "Build and preserve a liquidity buffer to absorb structured prepayments safely[cite: 2].",
+      "difference": "Advisor focused on specific operational risk mitigations (job change timing, insurance unbundling, and keeping ₹18–20 lakhs in OD), whereas the framework emphasizes buffer allocation specifically for annual prepayment execution[cite: 2]."
+    },
+    "pillar_4_repayment_guidelines": {
+      "advisor_recommended": "Park liquid funds, emergency corpus, and monthly rental yield (₹55,000) directly into the overdraft account to continuously offset principal interest daily[cite: 2].",
+      "framework_suggested": "1 Extra EMI/yr + 50% Bonus Sweep[cite: 2].",
+      "difference": "Advisor recommended ongoing daily cash parking in an OD account, whereas the framework calls for structured periodic lump-sum prepayments (1 Extra EMI per year + 50% bonus sweep)[cite: 2]."
+    }
+  },
+  "service_delivery_comparison": {
+    "advisor_actual_delivery": "Empathetic, consultative tone sharing personal professional experiences; utilized an OD screen-share spreadsheet/calculator to demonstrate interest savings and offered advice on property legal due diligence[cite: 2].",
+    "framework_suggested_delivery": "Guided Shepherd overlay requiring an educational, highly empathetic tone accompanied by a Fee Line-Item Audit Sheet & Stress-Test Scenarios[cite: 2].",
+    "difference": "Advisor maintained an empathetic and educational tone, but failed to provide the required Guided Shepherd visual artifacts (Fee Line-Item Audit Sheet and Stress-Test Scenarios)[cite: 2]."
+  },
+  "audit_scorecard": {
+    "core_diagnostic_passed": true,
+    "financial_pillars_compliant": false,
+    "service_delivery_compliant": false,
+    "audit_score": "6/10",
+    "audit_status": "FAIL",
+    "failure_reasons": [
+      "Pillar 1 Deviation: Recommended a 15-year contractual tenure instead of the framework's Dual-Phase 25-year contractual tenure[cite: 2].",
+      "Pillar 2 & 4 Deviation: Recommended an Overdraft product with continuous cash parking rather than a $0 Fee Floating loan with structured annual prepayments (1 Extra EMI/yr + 50% Bonus Sweep)[cite: 2].",
+      "Service Delivery Deviation: Missing required Guided Shepherd visual deliverables (Fee Line-Item Audit Sheet & Stress-Test Scenarios)[cite: 2]."
+    ]
+  }
+}

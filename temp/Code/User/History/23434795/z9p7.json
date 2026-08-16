@@ -1,0 +1,122 @@
+{
+  // // Editor Settings
+  "workbench.colorTheme": "Catppuccin Macchiato",
+  "explorer.confirmDelete": false,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 18,
+  "editor.wordWrap": "on",
+  "terminal.integrated.fontSize": 18,
+  "supermaven.enableFixWithSupermaven": true,
+  //  // Imported Editor Settings
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "none",
+  "editor.mouseWheelZoom": true,
+  "workbench.layoutControl.type": "menu",
+  // "workbench.editor.limit.enabled": true,
+  // "workbench.editor.limit.value": 1,
+  // "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.showTabs": "single",
+  "breadcrumbs.enabled": true,
+  "editor.renderControlCharacters": false,
+  "workbench.statusBar.visible": false,
+  "window.titleBarStyle": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 2,
+  "editor.scrollbar.horizontalScrollbarSize": 2,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "workbench.layoutControl.enabled": true,
+  "workbench.activityBar.location": "hidden",
+  "workbench.sideBar.location": "left",
+  // // LaTeX workshop settings
+  "latex-workshop.latex.autoClean.run": "onBuilt",
+  "latex-workshop.latex.clean.subfolder.enabled": true,
+  // "latex-workshop.view.pdf.zoom": "page-width",
+  // "latex-workshop.formatting.latex": "latexindent"
+  // "files.autoSave": "onWindowChange"
+  // // // Extra settings from video tutorial
+  // "latex-workshop.latex.tools": [
+  //   {
+  //     "name": "latexmk",
+  //     "command": "latexmk",
+  //     "args": [
+  //       "-synctex=1",
+  //       "-interaction=nonstopmode",
+  //       "-file-line-error",
+  //       "-pdf",
+  //       "-outdir=%OUTDIR%",
+  //       "%DOC%"
+  //     ],
+  //     "env": {}
+  //   },
+  //   {
+  //     "name": "xelatex",
+  //     "command": "xelatex",
+  //     "args": [
+  //       "-synctex=1",
+  //       "-interaction=nonstopmode",
+  //       "-file-line-error",
+  //       "%DOC%"
+  //     ],
+  //     "env": {}
+  //   },
+  //   {
+  //     "name": "pdflatex",
+  //     "command": "pdflatex",
+  //     "args": [
+  //       "-synctex=1",
+  //       "-interaction=nonstopmode",
+  //       "-file-line-error",
+  //       "%DOC%"
+  //     ],
+  //     "env": {}
+  //   },
+  //   {
+  //     "name": "bibtex",
+  //     "command": "bibtex",
+  //     "args": [
+  //       "%DOCFILE%"
+  //     ],
+  //     "env": {}
+  //   }
+  // ],
+  // "latex-workshop.latex.recipes": [
+  //   {
+  //     "name": "pdfLaTeX",
+  //     "tools": [
+  //       "pdflatex"
+  //     ]
+  //   },
+  //   {
+  //     "name": "latexmk 🔃",
+  //     "tools": [
+  //       "latexmk"
+  //     ]
+  //   },
+  //   {
+  //     "name": "xelatex",
+  //     "tools": [
+  //       "xelatex"
+  //     ]
+  //   },
+  //   {
+  //     "name": "pdflatex ➞ bibtex ➞ pdflatex`×2",
+  //     "tools": [
+  //       "pdflatex",
+  //       "bibtex",
+  //       "pdflatex",
+  //       "pdflatex"
+  //     ]
+  //   },
+  //   {
+  //     "name": "xelatex ➞ bibtex ➞ xelatex`×2",
+  //     "tools": [
+  //       "xelatex",
+  //       "bibtex",
+  //       "xelatex",
+  //       "xelatex"
+  //     ]
+  //   }
+  // ]
+}
