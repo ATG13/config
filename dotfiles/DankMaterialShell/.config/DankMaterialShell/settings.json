@@ -316,10 +316,10 @@
     }
   ],
   "networkPreference": "wifi",
-  "iconThemeDark": "Gruvbox-Icons",
+  "iconThemeDark": "System Default",
   "iconThemeLight": "System Default",
   "iconThemePerMode": false,
-  "lastAppliedIconTheme": "Gruvbox-Icons",
+  "lastAppliedIconTheme": "",
   "cursorSettings": {
     "theme": "Adwaita",
     "size": 24,
@@ -613,7 +613,10 @@
           "id": "privacyIndicator",
           "enabled": true
         },
-        "systemTray",
+        {
+          "id": "systemTray",
+          "enabled": true
+        },
         "clipboard",
         "cpuUsage",
         "memUsage",

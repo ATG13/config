@@ -28,5 +28,7 @@
   "python.terminal.activateEnvironment": true,
   "window.customTitleBarVisibility": "windowed",
   "editor.formatOnSave": true,
-  "breadcrumbs.enabled": false
+  "breadcrumbs.enabled": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.startupEditor": "none"
 }

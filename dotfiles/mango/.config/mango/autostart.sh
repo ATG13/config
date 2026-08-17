@@ -2,5 +2,4 @@
 
 kanshi &
 open-whispr &
-duplicati &
 disown

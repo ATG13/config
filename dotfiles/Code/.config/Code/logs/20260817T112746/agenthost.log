@@ -1,0 +1,15 @@
+2026-08-17 11:27:48.933 [info] Agent Host process started successfully
+2026-08-17 11:27:48.943 [info] AgentService initialized
+2026-08-17 11:27:48.952 [info] Registering agent provider: copilotcli
+2026-08-17 11:27:48.954 [info] Registering agent provider: claude
+2026-08-17 11:27:48.956 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-08-17 11:27:48.981 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-0c34c496d44a/kFnjvWk0BI1N8mBM3tTMEg.sock
+2026-08-17 11:27:48.985 [info] [ProtocolServer] Initialize: clientId=e89e8af2-cc2a-4332-8b43-f97f117f3e17, protocolVersions=[0.8.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-08-17 11:27:49.021 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-08-17 11:27:49.331 [info] [Copilot] Listing sessions...
+2026-08-17 11:27:49.332 [info] [Copilot] Starting CopilotClient...
+2026-08-17 11:27:49.358 [info] [Claude] SDK not downloaded yet; deferring session list until a session triggers the download
+2026-08-17 11:27:50.350 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-08-17 11:27:50.363 [info] [Copilot] Resolved CLI path: /usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/index.js
+2026-08-17 11:27:51.213 [info] [Copilot] CopilotClient started successfully
+2026-08-17 11:27:51.218 [info] [Copilot] Found 0 sessions

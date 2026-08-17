@@ -1,0 +1,73 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "686fc76df0e9da66aa0f9ee784e70b4d2e735e6a323d16718a51374384543e13",
+    "telemetry.devDeviceId": "31720b18-643b-482b-9f18-05d2b46d5d92",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1786946267665"
+            }
+        ]
+    },
+    "windowControlHeight": 52,
+    "profileAssociations": {
+        "workspaces": {},
+        "emptyWindows": {
+            "1786946267665": "__default__profile__"
+        }
+    },
+    "theme": "vs",
+    "themeBackground": "#f5f5f5",
+    "windowSplash": {
+        "zoomLevel": 2.2,
+        "baseTheme": "vs",
+        "colorInfo": {
+            "foreground": "#616161",
+            "background": "#f5f5f5",
+            "editorBackground": "#f5f5f5",
+            "titleBarBackground": "#c4b7d7",
+            "activityBarBackground": "#ededf5",
+            "sideBarBackground": "#f2f2f2",
+            "panelBackground": "#f5f5f5",
+            "editorGroupBorder": "#e7e7e7",
+            "agentsPanelBackground": "#f5f5f5",
+            "agentsPanelBorder": "#c9d0d9",
+            "statusBarBackground": "#705697",
+            "statusBarNoFolderBackground": "#705697"
+        },
+        "layoutInfo": {
+            "sideBarSide": "right",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 32,
+            "windowBorder": false,
+            "modernUI": true,
+            "partBounds": {
+                "editor": {
+                    "top": 38.986183166503906,
+                    "left": 7.993088245391846,
+                    "width": 878.0093994140625,
+                    "height": 520.0697021484375
+                }
+            }
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/atg/.config/Code/Backups/1786946267665",
+            "uiState": {
+                "mode": 1,
+                "x": 10,
+                "y": 10,
+                "width": 1335,
+                "height": 890
+            }
+        },
+        "openedWindows": []
+    }
+}
