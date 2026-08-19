@@ -1,5 +1,3 @@
 #!/usr/bin/bash
-
-kanshi &
-open-whispr &
-disown
+kanshi -c ~/.config/kanshi/config &
+open-whispr

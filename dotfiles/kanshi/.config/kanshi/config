@@ -6,5 +6,5 @@ profile desktop {
 
 # Profile 2: Laptop screen only
 profile laptop {
-    output "eDP-1" enable mode 1920x1080@60.004Hz position 0,0 scale 1
+    output "eDP-1" enable mode 1920x1200@60.002998 position 0,0 scale 1.25
 }

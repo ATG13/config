@@ -585,8 +585,12 @@
       "leftWidgets": [
         "workspaceSwitcher",
         {
+          "id": "layout",
+          "enabled": true
+        },
+        {
           "id": "focusedWindow",
-          "enabled": false,
+          "enabled": true,
           "focusedWindowSize": 0,
           "focusedWindowCompactMode": true
         }
@@ -601,10 +605,6 @@
         "weather"
       ],
       "rightWidgets": [
-        {
-          "id": "layout",
-          "enabled": true
-        },
         {
           "id": "colorPicker",
           "enabled": true
