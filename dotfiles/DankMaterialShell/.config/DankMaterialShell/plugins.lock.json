@@ -1,0 +1,9 @@
+{
+  "lockfileVersion": 1,
+  "plugins": {
+    "timeUntil": {
+      "repo": "https://github.com/fdmarcin/TimeUntil",
+      "commit": "857720e02b688e46c207e1f37c0c53b2cdf5a940"
+    }
+  }
+}

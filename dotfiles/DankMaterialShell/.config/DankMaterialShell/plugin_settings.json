@@ -1,0 +1,11 @@
+{
+  "dank-countdown": {
+    "enabled": false
+  },
+  "timeUntil": {
+    "enabled": true,
+    "unit": "hours",
+    "targetTimestamp": "2026-09-09 02:00",
+    "label": ""
+  }
+}

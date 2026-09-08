@@ -1,0 +1,16 @@
+#Profile 1: External monitor connected
+profile desktop {
+    output "DP-5" enable mode 1920x1080 position 0,0 scale 1
+    output "eDP-1" disable
+}
+
+# Profile 2: Laptop screen only
+profile laptop {
+    output "eDP-1" enable mode 1920x1080 position 0,0 scale 1
+}
+
+# Profile 3: External monitor 2
+profile desktop2 {
+  output "DP-6" enable mode 1920x1080 position 0,0 scale 1
+  output "eDP-1" disable
+}

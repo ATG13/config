@@ -1,0 +1,17 @@
+# cache files/dirs (case-insensitive: Cache, cached, sdk-cache, __pycache__)
+*[Cc]ache*
+# python bytecode
+*.py[cod]
+
+# scratch copies from other machines
+temp/
+
+# VS Code: share ONLY real user config; ignore all editor runtime state
+# (cookies, local storage, logs, crash dumps, history snapshots, chat sessions,
+# extension data, caches - any of these can contain credentials or machine ids)
+dotfiles/Code/.config/Code/*
+!dotfiles/Code/.config/Code/User/
+dotfiles/Code/.config/Code/User/*
+!dotfiles/Code/.config/Code/User/settings.json
+!dotfiles/Code/.config/Code/User/keybindings.json
+!dotfiles/Code/.config/Code/User/chatLanguageModels.json
