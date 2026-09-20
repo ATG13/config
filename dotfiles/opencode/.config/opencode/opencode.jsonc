@@ -18,7 +18,8 @@
   "plugin": [
     "/home/atg/Programs/ai-skills/ponytail/.opencode/plugins/ponytail.mjs",
     "opencode-parser"
-  ]
+  ],
+  "shell": "/usr/bin/zsh"
 //  ,
 //  "mcp": {
 //    "zoho-crm-data-insights": {

@@ -122,9 +122,10 @@ alias ls='ls --color=auto'
 # Custom workflow aliases
 alias c='clear'
 alias p='systemctl poweroff -i'
-alias u='sudo dnf update'
+alias u='bash ~/Programs/configuration/dotfiles/zsh/.config/update-script.sh'
 alias n='nvim'
 alias oc='opencode'
+alias lg='lazygit'
 
 # Source local overrides if present
 [[ -f ~/.env.zsh ]] && source ~/.env.zsh

@@ -5,7 +5,59 @@
   "timeUntil": {
     "enabled": true,
     "unit": "hours",
-    "targetTimestamp": "2026-09-09 02:00",
+    "targetTimestamp": "2026-09-21 01:30",
     "label": ""
+  },
+  "dankKDEConnect": {
+    "enabled": false,
+    "selectedDeviceId": "54b3d9bad29f4c11a58147eacb04884b"
+  },
+  "dankPomodoroTimer": {
+    "enabled": true,
+    "autoSetDND": true
+  },
+  "dankBatteryAlerts": {
+    "enabled": true
+  },
+  "calculator": {
+    "enabled": true,
+    "noTrigger": false,
+    "trigger": "",
+    "persistHistoryOnFile": true
+  },
+  "quickCapture": {
+    "enabled": false,
+    "watermarkPosition": "bottom_right",
+    "backgroundDefaultAlignment": "center",
+    "backgroundDefaultAspectRatio": "auto",
+    "backgroundDefaultMode": "solid",
+    "stampFontFamily": "system",
+    "textFontFamily": "system",
+    "defaultTool": "pen",
+    "defaultPresetIndex": "0",
+    "modalDisplayTarget": "focused",
+    "color_palette_preset": "adaptive",
+    "micDevice": "default_input",
+    "systemAudioDevice": "default_output",
+    "recordingBackend": "auto",
+    "recordingCodec": "auto",
+    "recordingQuality": "medium",
+    "recordingScreenTarget": "screen",
+    "regionHudScale": "auto",
+    "menuRightClickAction": "copy",
+    "rightClickAction": "clipboard",
+    "middleClickAction": "region",
+    "preset_0_tool": "pen",
+    "preset_1_tool": "arrow",
+    "preset_2_tool": "rect",
+    "preset_3_tool": "highlighter",
+    "preset_4_tool": "ellipse",
+    "preset_5_tool": "stamp",
+    "preset_6_tool": "redact",
+    "preset_7_tool": "pixelate",
+    "spawnPosition": "bottom-left",
+    "borderColor": "outlineVariant",
+    "usageGuideExpanded": false,
+    "ipcCommandsExpanded": true
   }
 }

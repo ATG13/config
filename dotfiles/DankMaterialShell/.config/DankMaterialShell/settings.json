@@ -186,6 +186,14 @@
       ],
       "rightWidgets": [
         {
+          "id": "dankKDEConnect",
+          "enabled": true
+        },
+        {
+          "id": "dankPomodoroTimer",
+          "enabled": true
+        },
+        {
           "id": "colorPicker",
           "enabled": true
         },
@@ -198,8 +206,16 @@
           "enabled": true
         },
         "clipboard",
-        "cpuUsage",
-        "memUsage",
+        {
+          "id": "cpuUsage",
+          "enabled": false,
+          "minimumWidth": false
+        },
+        {
+          "id": "memUsage",
+          "enabled": true,
+          "minimumWidth": true
+        },
         "notificationButton",
         "battery",
         "controlCenterButton"
@@ -294,5 +310,5 @@
     "copy",
     "paste"
   ],
-  "configVersion": 17
+  "configVersion": 18
 }

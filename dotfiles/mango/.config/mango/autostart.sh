@@ -23,3 +23,4 @@ systemctl --user restart xdg-desktop-portal
 # 6. Background user applications
 open-whispr &
 duplicati &
+kdeconnectd &
