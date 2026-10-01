@@ -21,6 +21,6 @@ systemctl --user restart xdg-desktop-portal-wlr
 systemctl --user restart xdg-desktop-portal
 
 # 6. Background user applications
-open-whispr &
+systemctl --user start voxtype   # voxtype.service supervises + auto-restarts the daemon
 duplicati &
 kdeconnectd &
