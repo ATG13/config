@@ -18,7 +18,7 @@
   "workbench.activityBar.location": "bottom", // hide the status bar on the bottom
   "extensions.ignoreRecommendations": true,
   "window.titleBarStyle": "custom",
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
   "workbench.statusBar.visible": true,
   "notebook.lineNumbers": "on",
   "workbench.colorTheme": "Quiet Light",
@@ -32,5 +32,7 @@
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.startupEditor": "none",
   "chat.titleBar.openInAgentsWindow.enabled": false,
-  "chat.titleBar.signIn.enabled": false
+  "chat.titleBar.signIn.enabled": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": true
 }

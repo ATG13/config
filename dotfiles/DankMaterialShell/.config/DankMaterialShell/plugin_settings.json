@@ -5,7 +5,7 @@
   "timeUntil": {
     "enabled": true,
     "unit": "hours",
-    "targetTimestamp": "2026-10-02 01:00",
+    "targetTimestamp": "2026-10-13 21:00",
     "label": ""
   },
   "dankKDEConnect": {
@@ -14,8 +14,11 @@
   },
   "dankPomodoroTimer": {
     "enabled": true,
-    "autoSetDND": true,
-    "workDuration": "50"
+    "autoSetDND": false,
+    "workDuration": "90",
+    "shortBreakDuration": "20",
+    "longBreakDuration": "60",
+    "longBreakFrequency": 2
   },
   "dankBatteryAlerts": {
     "enabled": true
@@ -62,6 +65,9 @@
     "ipcCommandsExpanded": true
   },
   "voxtypeWidget": {
+    "enabled": true
+  },
+  "takeABreak": {
     "enabled": true
   }
 }

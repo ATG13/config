@@ -15,6 +15,11 @@
       "path": "DankPomodoroTimer",
       "commit": "e774a9756f2a50499c37a5513f28bee4ebe81d73"
     },
+    "takeABreak": {
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "path": "takeABreak",
+      "commit": "30841c817c152bda1c969e0b91d034ccc9a75b86"
+    },
     "timeUntil": {
       "repo": "https://github.com/fdmarcin/TimeUntil",
       "commit": "857720e02b688e46c207e1f37c0c53b2cdf5a940"

@@ -24,3 +24,6 @@ systemctl --user restart xdg-desktop-portal
 systemctl --user start voxtype   # voxtype.service supervises + auto-restarts the daemon
 duplicati &
 kdeconnectd &
+proton-pass &
+#protonvpn connect --country IN &
+chromium-browser --profile-directory="Default" --app="https://calendar.google.com/" &
