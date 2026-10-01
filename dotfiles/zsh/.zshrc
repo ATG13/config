@@ -126,6 +126,7 @@ alias u='bash ~/Programs/configuration/dotfiles/zsh/.config/update-script.sh'
 alias n='nvim'
 alias oc='opencode'
 alias lg='lazygit'
+alias cb='cd ~/Aadi/Emisaver/code/whatsapp-chatbot/'
 
 # Source local overrides if present
 [[ -f ~/.env.zsh ]] && source ~/.env.zsh
