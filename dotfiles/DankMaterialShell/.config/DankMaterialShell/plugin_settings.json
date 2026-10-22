@@ -5,7 +5,7 @@
   "timeUntil": {
     "enabled": true,
     "unit": "hours",
-    "targetTimestamp": "2026-10-13 21:00",
+    "targetTimestamp": "2026-10-22 21:00",
     "label": ""
   },
   "dankKDEConnect": {
@@ -15,8 +15,8 @@
   "dankPomodoroTimer": {
     "enabled": true,
     "autoSetDND": false,
-    "workDuration": "90",
-    "shortBreakDuration": "20",
+    "workDuration": "25",
+    "shortBreakDuration": "5",
     "longBreakDuration": "60",
     "longBreakFrequency": 2
   },
