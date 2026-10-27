@@ -15,4 +15,7 @@ omp update
 echo "==> Updating Herdr..."
 herdr update
 
+echo "==> Updating uv ..."
+uv self update
+
 echo "==> All updates completed successfully!"

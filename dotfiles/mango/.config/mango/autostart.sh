@@ -13,8 +13,8 @@ dbus-update-activation-environment --all
 systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP XDG_SESSION_TYPE SSH_AUTH_SOCK
 
 # 4. Start kanshi FIRST so monitors are configured before portals query outputs
-kanshi -c ~/.config/kanshi/config &
-sleep 1
+# kanshi -c ~/.config/kanshi/config &
+# sleep 1
 
 # 5. Restart portal services via systemd (do not run the binary directly)
 systemctl --user restart xdg-desktop-portal-wlr

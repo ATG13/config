@@ -222,7 +222,7 @@
   "screenPreferences": {
     "notepad": []
   },
-  "displaySnapToEdge": false,
+  "displaySnapToEdge": true,
   "barConfigs": [
     {
       "id": "default",
@@ -308,6 +308,10 @@
           "id": "controlCenterButton",
           "enabled": true,
           "showMicPercent": true
+        },
+        {
+          "id": "keyboard_layout_name",
+          "enabled": false
         }
       ],
       "spacing": 4,
@@ -367,6 +371,12 @@
     },
     "dms_clipboard_search": {
       "trigger": "cb"
+    },
+    "dms_qr_generator": {
+      "trigger": "qrg"
+    },
+    "dms_power": {
+      "trigger": "pw"
     }
   },
   "clipboardEnterToPaste": true,
@@ -456,5 +466,8 @@
   ],
   "connectedFrameBarStyleBackups": {},
   "frameEnabled": false,
-  "widgetColorMode": "default"
+  "widgetColorMode": "default",
+  "batteryNotifyLow": true,
+  "acProfileName": "2",
+  "displayShowDisconnected": true
 }
