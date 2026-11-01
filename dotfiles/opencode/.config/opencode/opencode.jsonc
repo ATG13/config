@@ -15,10 +15,11 @@
   //    }
   //  }
   //},
+  "skills": ["~/.agents/skills"],
   "plugin": [
-    "/home/atg/Programs/ai-skills/ponytail/.opencode/plugins/ponytail.mjs",
+//    "/home/atg/Programs/ai-skills/ponytail/.opencode/plugins/ponytail.mjs",
     "opencode-parser"
-  ],
+   ],
   "shell": "/usr/bin/zsh"
 //  ,
 //  "mcp": {

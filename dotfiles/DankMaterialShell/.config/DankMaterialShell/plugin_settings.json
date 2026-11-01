@@ -5,7 +5,7 @@
   "timeUntil": {
     "enabled": true,
     "unit": "hours",
-    "targetTimestamp": "2026-10-27 21:00",
+    "targetTimestamp": "2026-11-01 21:00",
     "label": ""
   },
   "dankKDEConnect": {
@@ -68,6 +68,9 @@
     "enabled": true
   },
   "takeABreak": {
-    "enabled": true
+    "enabled": true,
+    "shortBreakInterval": 20,
+    "shortBreaksBeforeLong": 2,
+    "isPaused": true
   }
 }

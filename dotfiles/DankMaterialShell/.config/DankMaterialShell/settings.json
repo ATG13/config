@@ -20,22 +20,16 @@
     {
       "id": "user",
       "enabled": true,
-      "w": 5,
+      "w": 3.5,
       "h": 1,
       "col": 0,
-      "row": 0
+      "row": 0,
+      "hostname": false,
+      "background": false,
+      "badge": true
     },
     {
       "id": "settings",
-      "enabled": true,
-      "w": 1,
-      "h": 1,
-      "small": true,
-      "col": 5,
-      "row": 0
-    },
-    {
-      "id": "lock",
       "enabled": true,
       "w": 1,
       "h": 1,
@@ -149,6 +143,14 @@
       "small": false,
       "col": 4,
       "row": 6
+    },
+    {
+      "id": "plugin_takeABreak",
+      "enabled": true,
+      "w": 2.5,
+      "h": 1,
+      "col": 3.5,
+      "row": 0
     }
   ],
   "appIdSubstitutions": [],
@@ -276,6 +278,12 @@
       ],
       "rightWidgets": [
         {
+          "id": "keyboard_layout_name",
+          "enabled": true,
+          "keyboardLayoutNameCompactMode": true,
+          "keyboardLayoutNameShowIcon": false
+        },
+        {
           "id": "dankPomodoroTimer",
           "enabled": true
         },
@@ -308,10 +316,6 @@
           "id": "controlCenterButton",
           "enabled": true,
           "showMicPercent": true
-        },
-        {
-          "id": "keyboard_layout_name",
-          "enabled": false
         }
       ],
       "spacing": 4,
@@ -469,5 +473,10 @@
   "widgetColorMode": "default",
   "batteryNotifyLow": true,
   "acProfileName": "2",
-  "displayShowDisconnected": true
+  "displayShowDisconnected": true,
+  "keyboardOptions": "",
+  "keyboardVariants": "",
+  "keyboardModel": "",
+  "keyboardLayouts": "",
+  "desktopWidgetInstances": []
 }
