@@ -1,0 +1,25 @@
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    include "us(colemak)"
+    name[Group1] = "colemak";
+
+    replace key <CAPS> { [ BackSpace ], type[group1] = "ONE_LEVEL", repeat = Yes };
+    // repeat = Yes is required because BackSpace has no explicit interpret
+    // claiming repeat, so libxkbcommon leaves <CAPS> non-repeating by default.
+    replace key <BKSP> { [ Caps_Lock ], type[group1] = "ONE_LEVEL" };
+
+    modifier_map Lock { Caps_Lock };
+};
+
+// Backup group: plain QWERTY with the same Caps<->Backspace swap.
+// A plain us group would rebind keycode <CAPS> to Lock map-wide and resurrect
+// the double-trigger (compat "Any+Lock"), so the backup keeps the swap too.
+xkb_symbols "us_backup" {
+    include "us"
+    name[Group1] = "English (US, Caps and Backspace Swapped)";
+
+    replace key <CAPS> { [ BackSpace ], type[group1] = "ONE_LEVEL", repeat = Yes };
+    replace key <BKSP> { [ Caps_Lock ], type[group1] = "ONE_LEVEL" };
+
+    modifier_map Lock { Caps_Lock };
+};
