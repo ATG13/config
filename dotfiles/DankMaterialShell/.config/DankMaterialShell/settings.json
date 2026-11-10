@@ -20,7 +20,7 @@
     {
       "id": "user",
       "enabled": true,
-      "w": 3.5,
+      "w": 5,
       "h": 1,
       "col": 0,
       "row": 0,
@@ -52,7 +52,7 @@
       "w": 8,
       "h": 1,
       "col": 0,
-      "row": 1
+      "row": 6
     },
     {
       "id": "wifi",
@@ -105,26 +105,26 @@
     {
       "id": "idleInhibitor",
       "enabled": true,
-      "w": 4,
+      "w": 2,
       "h": 1,
-      "col": 0,
-      "row": 5
+      "col": 6,
+      "row": 1
     },
     {
       "id": "doNotDisturb",
       "enabled": true,
-      "w": 4,
+      "w": 2,
       "h": 1,
-      "col": 4,
-      "row": 5
+      "col": 2,
+      "row": 1
     },
     {
       "id": "nightMode",
       "enabled": true,
-      "w": 4,
+      "w": 2,
       "h": 1,
-      "col": 0,
-      "row": 6
+      "col": 4,
+      "row": 1
     },
     {
       "id": "edit",
@@ -132,25 +132,33 @@
       "w": 1,
       "h": 1,
       "small": true,
-      "col": 7,
-      "row": 6
+      "col": 5,
+      "row": 0
     },
     {
       "id": "runningApps",
       "enabled": true,
-      "w": 3,
+      "w": 4,
       "h": 1,
       "small": false,
       "col": 4,
-      "row": 6
+      "row": 5
     },
     {
       "id": "plugin_takeABreak",
       "enabled": true,
-      "w": 2.5,
+      "w": 4,
       "h": 1,
-      "col": 3.5,
-      "row": 0
+      "col": 0,
+      "row": 5
+    },
+    {
+      "id": "builtin_vpn",
+      "enabled": true,
+      "w": 2,
+      "h": 1,
+      "col": 0,
+      "row": 1
     }
   ],
   "appIdSubstitutions": [],
@@ -404,6 +412,7 @@
       "showOnLastDisplay": true,
       "position": 0,
       "mode": "compact",
+      "middleClickAction": "close",
       "taskbarAlign": "center",
       "widgetExpansion": "popout",
       "iconSize": 40,
@@ -474,9 +483,10 @@
   "batteryNotifyLow": true,
   "acProfileName": "2",
   "displayShowDisconnected": true,
-  "keyboardOptions": "",
+  "keyboardOptions": "lv3:ralt_alt,grp:ralt_rshift_toggle",
   "keyboardVariants": "",
   "keyboardModel": "",
   "keyboardLayouts": "",
-  "desktopWidgetInstances": []
+  "desktopWidgetInstances": [],
+  "avatarRing": "primary"
 }
