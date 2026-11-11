@@ -20,8 +20,8 @@
     {
       "id": "user",
       "enabled": true,
-      "w": 5,
-      "h": 1,
+      "w": 4,
+      "h": 2,
       "col": 0,
       "row": 0,
       "hostname": false,
@@ -31,10 +31,10 @@
     {
       "id": "settings",
       "enabled": true,
-      "w": 1,
+      "w": 2,
       "h": 1,
       "small": true,
-      "col": 6,
+      "col": 5,
       "row": 0
     },
     {
@@ -49,10 +49,11 @@
     {
       "id": "brightnessSlider",
       "enabled": true,
-      "w": 8,
+      "w": 6.5,
       "h": 1,
-      "col": 0,
-      "row": 6
+      "col": 1.5,
+      "row": 6,
+      "deviceName": "software:DP-5"
     },
     {
       "id": "wifi",
@@ -105,26 +106,27 @@
     {
       "id": "idleInhibitor",
       "enabled": true,
-      "w": 2,
+      "w": 1.5,
       "h": 1,
-      "col": 6,
-      "row": 1
+      "col": 6.5,
+      "row": 1,
+      "small": false
     },
     {
       "id": "doNotDisturb",
       "enabled": true,
-      "w": 2,
+      "w": 2.5,
       "h": 1,
-      "col": 2,
+      "col": 4,
       "row": 1
     },
     {
       "id": "nightMode",
       "enabled": true,
-      "w": 2,
+      "w": 1.5,
       "h": 1,
-      "col": 4,
-      "row": 1
+      "col": 0,
+      "row": 6
     },
     {
       "id": "edit",
@@ -132,7 +134,7 @@
       "w": 1,
       "h": 1,
       "small": true,
-      "col": 5,
+      "col": 4,
       "row": 0
     },
     {
@@ -151,14 +153,6 @@
       "h": 1,
       "col": 0,
       "row": 5
-    },
-    {
-      "id": "builtin_vpn",
-      "enabled": true,
-      "w": 2,
-      "h": 1,
-      "col": 0,
-      "row": 1
     }
   ],
   "appIdSubstitutions": [],
