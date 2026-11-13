@@ -484,5 +484,6 @@
   "keyboardLayouts": "",
   "desktopWidgetInstances": [],
   "avatarRing": "primary",
-  "iconThemeDark": "Gruvbox-Icons"
+  "iconThemeDark": "Gruvbox-Icons",
+  "wallpaperFillMode": "Fill"
 }

@@ -22,11 +22,29 @@
   me-e (tap-hold-release-keys 250 200 k rmet (y u i o p h j l n m , . / a s d f ;))
   ct-i (tap-hold-release-keys 250 200 l rctl (y u i o p h j k n m , . / a s d f ;))
   sh-o (tap-hold-release-keys 250 200 ; rsft (y u i o p h j k l n m , . / a s d f))
+
+  ;; Navigation switcher: physical LEFT ALT.
+  ;; Tap = plain Alt modifier; hold >= 200 ms = Alt held + NAV layer active
+  ;; (press+release of any key while pending fires the hold early).
+  ;; Arrow aliases release the held Alt first so NAV gives plain arrows
+  ;; (not Alt+arrow). After an arrow, keys pressed with Alt still held come
+  ;; out WITHOUT Alt until you release and re-press it.
+  nav-alt (tap-hold-release 250 200 lalt (multi lalt (layer-while-held nav)))
+  nav-left (multi (release-key lalt) left)
+  nav-down (multi (release-key lalt) down)
+  nav-up   (multi (release-key lalt) up)
+  nav-rght (multi (release-key lalt) rght)
 )
 
-(defsrc a s d f j k l ;)
+(defsrc a s d f j k l ; h lalt)
 (deflayer base
   @sh-a @ct-r @me-s @al-t @al-n @me-e @ct-i @sh-o
+  h @nav-alt
+)
+
+(deflayer nav
+  _ _ _ _ @nav-down @nav-up @nav-rght _
+  @nav-left _
 )
 
 ;; Edit this file, then: systemctl --user restart kanata

@@ -1,17 +1,6 @@
 kanata layers  —  config.kbd
 ============================
-Two layers. Switcher: LEFT ALT (physical).
-  tap Alt          -> Alt (normal modifier)
-  hold Alt         -> Alt held + NAV layer active (250 ms)
-  Alt down + key   -> key acts as in NAV below; anything unlisted falls
-                      through to BASE with real Alt held (Alt+key combos
-                      still work)
-
-Home-row hold-taps on BASE (hold = modifier, tap = letter, 250/200 ms),
-printed letters (Colemak layout):
-  a=LSft  s=LCtrl  d=LMeta  f=LAlt  j=RAlt  k=RMeta  l=RCtrl  ;=RSft
-
-Keys only listed in defsrc for the arrows: h (normal letter on BASE).
+TWO layers (BASE + NAV). kanata 1.11.0, terra package.
 
 ---------------------------------------------------------------------------
 BASE  (default layer)
@@ -26,37 +15,95 @@ BASE  (default layer)
 +------+---+---+---+---+---+---+---+---+---+---+---+---------------+
 | LSft | z | x | c | v | b | n | m | , | . | / |     RSft         |
 +------+---+---+---+---+---+---+---+---+---+---+-------------------+
-|LCtrl |LMet| ALT* |         Space          |   other mods unmodified  |
-+------+------+-----------------------+---------------------------+
+|LCtrl |LMet| LAlt  |         Space          |   other mods unmodified  |
++------+------+------------------------+---------------------------+
 
-  x.  = hold-tap: tap = x, hold = modifier (see header)
-  ALT* = tap: Alt | hold 250ms: NAV layer + Alt held
+  LAlt (physical) is the NAV layer switcher, see the NAV section below.
+  All other physical modifiers (LCtrl, LMet, RSft, RAlt...) are unmapped
+  and pass through unchanged.
+
+  x.  = home-row hold-tap (defalias): tap = letter, hold = modifier.
+        Timings 250/200 ms: tap-repress 250 (fast re-tap repeats the
+        letter), hold timeout 200 ms (hold becomes the modifier).
+
+Home-row mods, printed letters (Colemak layout):
+  a=LSft  s=LCtrl  d=LMeta  f=LAlt  j=RAlt  k=RMeta  l=RCtrl  ;=RSft
+
+Variant: tap-hold-release-keys.
+  tap-keys list per key = same-hand letters + every other HRM key:
+  pressing a listed key while the hold-tap is still pending resolves it
+  to TAP immediately -> rolls into those keys emit the letter instantly
+  (no roll lag).
+  Keys NOT in the list use permissive hold: press+release of such a key
+  while held resolves to the MODIFIER (quick opposite-hand combos).
+  Right-hand lists (j k l ;) additionally exclude v and b: pressing
+  those while held resolves to the modifier (permissive hold).
+  The f24 multi-wrapper (kanata discussion #422) is deliberately NOT
+  used: its virtual-key release feeds back as fake input and tripwires
+  this permissive-hold variant into hold on every press.
+
+CHORD LIMITATION (verified 2026-11-13 by ydotool injection):
+  Two home-row mods held together CANNOT both activate. Pressing the
+  second HRM key while the first is pending forces the first to tap
+  (it is in the tap-keys list), and vice versa. Chording a(Shift)+
+  s(Ctrl)+v emits plain "asv", no modifiers. This breaks Ctrl+Shift+V
+  (and any two-mod combo from the home row).
+
+  Workaround: hold the FIRST mod alone >=200 ms, then the second, then
+  the letter. Verified to emit proper Ctrl+Shift+v.
+  Physical modifiers are unmapped and pass through unaffected; physical
+  Ctrl+Shift+v works normally.
+
+  Proper fix requires kanata >= 1.12.0: `tap-hold-order` resolves by
+  release order instead (fast roll -> tap because the tap-hold key
+  releases first; chord -> hold because the letter releases first).
+  Not yet applied (terra ships 1.11.0).
 
 ---------------------------------------------------------------------------
-NAV  (active while LEFT ALT held)
+NAV  (implemented, verified 2026-11-13 by ydotool injection)
 ---------------------------------------------------------------------------
+
+Two-layer design. Switcher: LEFT ALT (physical).
+  tap Alt          -> Alt (normal modifier)
+  hold Alt >=200ms -> Alt held + NAV layer active
+  Alt down + key   -> key acts as in NAV below; anything unlisted falls
+                      through to BASE with real Alt held (Alt+key combos
+                      still work)
 
 +----+----+----+----+----+----+----+----+----+----+----+----+----+
 | _  | _  | _  | _  | _  | _  | _  | _  | _  | _  | _  | _  | _  | _
 +----+----+----+----+----+----+----+----+----+----+----+----+----+
 | Tab  | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ |    _     |
-+------+---+---+---+---+---+---+---+---+---+---+---+---+---------------+
-| Caps | _ | _ | _ | _ |<--| _ |down  up  -->| _ | _ | _ |    Enter      |
++------+---+---+---+---+---+---+---+---+---+---+---+---+---------+
+| Caps | a.| s.| d.| f.| _ |<--|down up -->| ;.| ' |    Enter      |
 +------+---+---+---+---+---+---+---+---+---+---+---+---------------+
 | LSft | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ |     RSft         |
 +------+---+---+---+---+---+---+---+---+---+---+-------------------+
 |LCtrl |LMet| ALT  |         Space          |            _          |
 +------+------+-----------------------+---------------------------+
 
-NAV positions (home row, printed h n e i on Colemak):
-              h      j      k      l      ;
-              <-    down    up     ->   (keeps RSft hold-tap)
+Implementation (defalias):
+  nav-alt  (tap-hold-release 250 200 lalt (multi lalt (layer-while-held nav)))
+  nav-*    (multi (release-key lalt) left|down|up|rght)
+  Timings match the home-row hold-taps: tap < 200 ms = plain Alt,
+  hold >= 200 ms = NAV + Alt held; press+release of any key while
+  pending fires the hold early (quick Alt+key chords).
 
-  _   = transparent: falls through to BASE (with Alt modifier held)
-  <-- --> = arrows; the held Alt is released first so you get plain
-        arrows (not Alt+arrow). Consequence: after an arrow, letters
-        typed with Alt still held come out WITHOUT the modifier until
-        you release and re-tap Alt.
-  Caveat: j/k/l lose their hold-tap modifiers while NAV is active
-        (RAlt/RMeta/RCtrl). Use other modifier sources or re-tap
-        after releasing Alt.
+NAV arrows at printed Colemak h n e i (hardware h j k l):
+  h = left   n = down   e = up   i = right
+
+  _   = transparent: falls through to BASE (with Alt modifier held).
+  x.  = transparent to the BASE hold-tap, so it still works: tap = letter
+        (with Alt held -> Alt+letter), hold = its modifier. Left-hand
+        a s d f and ; keep their hold-taps in NAV this way.
+
+Arrows: the held Alt is released first so you get PLAIN arrows (not
+Alt+arrow). Verified consequence: after an arrow, keys pressed with
+Alt still held come out WITHOUT the modifier until you release and
+re-press Alt. Alt+key combos made before any arrow still work
+(verified: Alt held + x -> Alt+x).
+
+  Caveat: j/k/l (Colemak n/e/i) are arrows in NAV, so their hold-tap
+        modifiers (RAlt/RMeta/RCtrl) are unavailable while NAV is
+        active. Use other modifier sources or re-tap after releasing
+        Alt. ; (Colemak o) keeps its RSft hold-tap via transparency.

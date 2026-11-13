@@ -71,6 +71,6 @@
     "enabled": true,
     "shortBreakInterval": 20,
     "shortBreaksBeforeLong": 2,
-    "isPaused": false
+    "isPaused": true
   }
 }
