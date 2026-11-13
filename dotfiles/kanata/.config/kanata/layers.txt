@@ -1,0 +1,62 @@
+kanata layers  —  config.kbd
+============================
+Two layers. Switcher: LEFT ALT (physical).
+  tap Alt          -> Alt (normal modifier)
+  hold Alt         -> Alt held + NAV layer active (250 ms)
+  Alt down + key   -> key acts as in NAV below; anything unlisted falls
+                      through to BASE with real Alt held (Alt+key combos
+                      still work)
+
+Home-row hold-taps on BASE (hold = modifier, tap = letter, 250/200 ms),
+printed letters (Colemak layout):
+  a=LSft  s=LCtrl  d=LMeta  f=LAlt  j=RAlt  k=RMeta  l=RCtrl  ;=RSft
+
+Keys only listed in defsrc for the arrows: h (normal letter on BASE).
+
+---------------------------------------------------------------------------
+BASE  (default layer)
+---------------------------------------------------------------------------
+
++----+----+----+----+----+----+----+----+----+----+----+----+----+
+| `  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 0  | -  | =  | Backspc
++----+----+----+----+----+----+----+----+----+----+----+----+----+
+| Tab  | q | w | e | r | t | y | u | i | o | p | [ | ] |    \     |
++------+---+---+---+---+---+---+---+---+---+---+---+---+---------+
+| Caps | a.| s.| d.| f.| g | h | j.| k.| l.| ;.| ' |    Enter      |
++------+---+---+---+---+---+---+---+---+---+---+---+---------------+
+| LSft | z | x | c | v | b | n | m | , | . | / |     RSft         |
++------+---+---+---+---+---+---+---+---+---+---+-------------------+
+|LCtrl |LMet| ALT* |         Space          |   other mods unmodified  |
++------+------+-----------------------+---------------------------+
+
+  x.  = hold-tap: tap = x, hold = modifier (see header)
+  ALT* = tap: Alt | hold 250ms: NAV layer + Alt held
+
+---------------------------------------------------------------------------
+NAV  (active while LEFT ALT held)
+---------------------------------------------------------------------------
+
++----+----+----+----+----+----+----+----+----+----+----+----+----+
+| _  | _  | _  | _  | _  | _  | _  | _  | _  | _  | _  | _  | _  | _
++----+----+----+----+----+----+----+----+----+----+----+----+----+
+| Tab  | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ |    _     |
++------+---+---+---+---+---+---+---+---+---+---+---+---+---------------+
+| Caps | _ | _ | _ | _ |<--| _ |down  up  -->| _ | _ | _ |    Enter      |
++------+---+---+---+---+---+---+---+---+---+---+---+---------------+
+| LSft | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ |     RSft         |
++------+---+---+---+---+---+---+---+---+---+---+-------------------+
+|LCtrl |LMet| ALT  |         Space          |            _          |
++------+------+-----------------------+---------------------------+
+
+NAV positions (home row, printed h n e i on Colemak):
+              h      j      k      l      ;
+              <-    down    up     ->   (keeps RSft hold-tap)
+
+  _   = transparent: falls through to BASE (with Alt modifier held)
+  <-- --> = arrows; the held Alt is released first so you get plain
+        arrows (not Alt+arrow). Consequence: after an arrow, letters
+        typed with Alt still held come out WITHOUT the modifier until
+        you release and re-tap Alt.
+  Caveat: j/k/l lose their hold-tap modifiers while NAV is active
+        (RAlt/RMeta/RCtrl). Use other modifier sources or re-tap
+        after releasing Alt.
