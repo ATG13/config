@@ -368,7 +368,8 @@
       "followInterfaceStyle": true,
       "widgetFollowInterfaceStyle": true,
       "dot": false,
-      "barLengthMode": "full"
+      "barLengthMode": "full",
+      "island": false
     }
   ],
   "builtInPluginSettings": {
@@ -482,5 +483,6 @@
   "keyboardModel": "",
   "keyboardLayouts": "",
   "desktopWidgetInstances": [],
-  "avatarRing": "primary"
+  "avatarRing": "primary",
+  "iconThemeDark": "Gruvbox-Icons"
 }

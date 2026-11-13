@@ -1,0 +1,33 @@
+(defcfg
+  process-unmapped-keys yes
+)
+
+(defalias
+  ;; Home-row mods on the full Colemak home row (QWERTY positions a s d f j k l ;):
+  ;; a/o = left/right shift, r/i = left/right ctrl, s/e = left/right super (meta),
+  ;; t/n = left/right alt.
+  ;; tap-repress 250: quick re-tap + hold repeats the letter (aaaa),
+  ;; single hold (no recent tap of that key) = its modifier.
+  ;; Tap-keys = same-hand physical keys + every other HRM key:
+  ;; rolling into them outputs the letter immediately (no roll lag).
+  ;; An opposite-hand press+release while held fires the mod early (quick combos).
+  ;; NOTE: the documented f24 multi-wrapper (discussion #422) is deliberately
+  ;; NOT used here — its virtual-key release feeds back as a fake input event
+  ;; and tripwires this permissive-hold variant into hold on every press.
+  sh-a (tap-hold-release-keys 250 200 a lsft (q w e r t s d f g z x c v b j k l ;))
+  ct-r (tap-hold-release-keys 250 200 s lctl (a q w e r t d f g z x c v b j k l ;))
+  me-s (tap-hold-release-keys 250 200 d lmet (a q w e r t s f g z x c v b j k l ;))
+  al-t (tap-hold-release-keys 250 200 f lalt (a q w e r t s d g z x c v b j k l ;))
+  al-n (tap-hold-release-keys 250 200 j ralt (y u i o p h k l n m , . / a s d f ;))
+  me-e (tap-hold-release-keys 250 200 k rmet (y u i o p h j l n m , . / a s d f ;))
+  ct-i (tap-hold-release-keys 250 200 l rctl (y u i o p h j k n m , . / a s d f ;))
+  sh-o (tap-hold-release-keys 250 200 ; rsft (y u i o p h j k l n m , . / a s d f))
+)
+
+(defsrc a s d f j k l ;)
+(deflayer base
+  @sh-a @ct-r @me-s @al-t @al-n @me-e @ct-i @sh-o
+)
+
+;; Edit this file, then: systemctl --user restart kanata
+;; Docs: https://github.com/jtroo/kanata/blob/main/docs/config.adoc
